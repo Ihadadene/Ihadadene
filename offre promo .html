@@ -1,718 +1,680 @@
-<center><br><br>
-<table width="85%" border="0" cellpadding="0" cellspacing="0">
-    <tbody>
-        <tr>
-            <td style="text-align: center;" colspan="2"><strong>PLOMBERIE CHAUFFAGE<br />
-            <span style="color: rgb(0, 0, 255);">ihadadene.com</span><br />
-            </strong> <span style="font-size: small;"> Route du nouveau stade Rouiba Alger             <strong>Mob</strong>.0550 08 11 52 - <strong>SMS.</strong>0551 45 74 25</span> <br><br>
-            <b>Nom: <input style="height: 2em; width: 13em;" id="" type="text" /></b><span style="font-size: small;">&nbsp; &nbsp;             <script type="text/javascript">// <![CDATA[
-navvers = navigator.appVersion.substring(0,1);
-if (navvers > 3)
-   navok = true;
-else
-   navok = false;
-
-today = new Date;
-jour = today.getDay();
-numero = today.getDate();
-if (numero<10)
-   numero = "0"+numero;
-mois = today.getMonth();
-if (navok)
-   annee = today.getFullYear();
-else
-   annee = today.getYear();
-TabJour = new Array("Dimanche","Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi");
-TabMois = new Array("janvier","février","mars","avril","mai","juin","juillet","aout","septembre","octobre","novembre","dééembre");
-messageDate = TabJour[jour] + " " + numero + " " + TabMois[mois] + " " + annee;
-   
-// ]]></script> <script type="text/javascript">// <![CDATA[
-document.write(messageDate);
-     
-// ]]></script> </span>              <input value="Offre valable 2 jours" type="text" /></td>
-        </tr>
-        <tr>
-            <td colspan="2"><center>             <b> OFFRE PROMO MATERIELS CHAUFFAGE<br />
-            </b></center></td>
-        </tr>
-        <tr>
-            <td style="text-align: left;"><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Designation&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Qte</b></center></td>
-        </tr>
-    </tbody>
-</table>
-</center>
-
-         <script type="text/javascript">// <![CDATA[
-function prix() 
-{ 
-var option1 = parseInt(document.getElementById('option1').value); 
-var quantite1 = parseInt(document.getElementById('quantite1').value);
-var option2 = parseInt(document.getElementById('option2').value);
-var quantite2 = parseInt(document.getElementById('quantite2').value);
-var option3 = parseInt(document.getElementById('option3').value);
-var quantite3 = parseInt(document.getElementById('quantite3').value);
-var option4 = parseInt(document.getElementById('option4').value); 
-var quantite4 = parseInt(document.getElementById('quantite4').value);
-var option5 = parseInt(document.getElementById('option5').value);
-var quantite5 = parseInt(document.getElementById('quantite5').value);
-var option6 = parseInt(document.getElementById('option6').value);
-var quantite6 = parseInt(document.getElementById('quantite6').value);
-var option7 = parseInt(document.getElementById('option7').value);
-var quantite7 = parseInt(document.getElementById('quantite7').value);
-var option8 = parseInt(document.getElementById('option8').value);
-var quantite8 = parseInt(document.getElementById('quantite8').value);
-var option9 = parseInt(document.getElementById('option9').value);
-var quantite9 = parseInt(document.getElementById('quantite9').value);
-var option10 = parseInt(document.getElementById('option10').value);
-var quantite10 = parseInt(document.getElementById('quantite10').value);
-var quantite10A = parseInt(document.getElementById('quantite10A').value);
-var option11 = parseInt(document.getElementById('option11').value);
-var quantite11 = parseInt(document.getElementById('quantite11').value);
-var quantite11A = parseInt(document.getElementById('quantite11A').value);
-var option12 = parseInt(document.getElementById('option12').value);
-var quantite12 = parseInt(document.getElementById('quantite12').value);
-var quantite12A = parseInt(document.getElementById('quantite12A').value);
-var option13 = parseInt(document.getElementById('option13').value);
-var quantite13 = parseInt(document.getElementById('quantite13').value);
-var quantite13A = parseInt(document.getElementById('quantite13A').value);
-var option14 = parseInt(document.getElementById('option14').value);
-var quantite14 = parseInt(document.getElementById('quantite14').value);
-var quantite14A = parseInt(document.getElementById('quantite14A').value);
-var option15 = parseInt(document.getElementById('option15').value);
-var quantite15 = parseInt(document.getElementById('quantite15').value);
-var quantite15A = parseInt(document.getElementById('quantite15A').value);
-var option16 = parseInt(document.getElementById('option16').value);
-var quantite16 = parseInt(document.getElementById('quantite16').value);
-var quantite16A = parseInt(document.getElementById('quantite16A').value);
-var option17 = parseInt(document.getElementById('option17').value);
-var quantite17 = parseInt(document.getElementById('quantite17').value);
-var quantite17A = parseInt(document.getElementById('quantite17A').value);
-var option18 = parseInt(document.getElementById('option18').value);
-var quantite18 = parseInt(document.getElementById('quantite18').value);
-var option19 = parseInt(document.getElementById('option19').value);
-var quantite19 = parseInt(document.getElementById('quantite19').value);
-var option20 = parseInt(document.getElementById('option20').value);
-var quantite20 = parseInt(document.getElementById('quantite20').value);
-
-var resultat = (quantite1*option1) + (quantite2*option2) + (quantite3*option3) + (quantite4*option4) + (quantite5*option5) + (quantite6*option6) + (quantite7*option7) + (quantite8*option8) +
-(quantite9*option9) +
-(quantite10*quantite10A) +
-(quantite11*quantite11A) + (quantite12*quantite12A) +
-(quantite13*quantite13A) +
-(quantite14*quantite14A) +
-(quantite15*quantite15A) +
-(quantite16*quantite16A) + (quantite17*quantite17A) +
-(quantite18*option18) +
-(quantite19*option19) +
-(quantite20*option20);
-
-document.getElementById('prix').innerHTML = resultat; 
-
-
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'928b218c9cafc25a',t:'MTc0MzM3NDY2MC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+<title></title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<style type="text/css">body {
+    font-family: 'Roboto', Arial, sans-serif; /* Utilisation d'une police plus moderne */
+    margin: 0;
+    padding: 0;
+    background: #f5f7fa; /* Fond légèrement gris pour un contraste doux */
 }
-// ]]></script><center>
-<table width="85%" height="" border="1" cellpadding="1" cellspacing="1">
-    <tbody>
-        <tr>
-            <td>
-            <p><select style="height: 2em; width: 55%;" id="option1" name="option1" onchange="prix()">
-            <option selected="selected" value="83900"> Chaudiere 24kw Ventouse Riello Fast Italie </option>
-            <option value="86900">Chaudiere 24kw Ventouse Riello start Italie</option>
-            
-            <option value="76900">Chaudiere 24kw cheminee Riello Fast Italie</option>
-            
-            <option value="79900">Chaudiere 24kw ventouse Motan Roumanie</option>
-           
-            <option value="92900">Chaudiere 24kw Ventouse Beretta S Italie</option>
-             
-            <option value="89900">Chaudiere 24kw Ventouse Beretta E Italie NON/DISPONIBLE</option>
-            <option value="83900">Chaudiere 24kw Ventouse Immergas Italie</option>
-            
-            <option value="82900">Chaudiere 24kw Ventouse Ravenheat Italie</option>
-            
-            <option value="81900">Chaudiere 24kw Ventouse sime Italie</option>
-            
-            <option value="89500">Chaudiere 24kw Ventouse Unical Italie</option>
 
- <option value="89900">Chaudiere 24kw Ventouse Chappee Italie</option>
-   
-   <option value="89000">Chaudiere 25kw cheminee Saunier Duval</option>
- 
-  <option value="101000">Chaudiere 25kw + Ventouse Saunier Duval</option>
-  
-  <option value="91900">Chaudiere 26kw Ventouse Ravenheat Italie</option>
- 
- <option value="105900">Chaudiere 28kw Ventouse Riello Italie</option>
- 
-  <option value="111900">Chaudiere 28kw Ventouse Immergas Italie</option>
- 
- <option value="122900">Chaudiere 30kw Ventouse Riello Italie</option>
- 
-   <option value="149000">Chaudiere 30kw + Ventouse Saunier Duval</option>
-   
-    <option value="133000">Chaudiere 30kw cheminee Saunier Duval</option>
-    
-      <option value="105900">Chaudiere 30kw Ventouse Ravenheat Italie</option>
-        
-         <option value="112900">Chaudiere 30kw Ventouse Junkers</option>
-      
-        <option value="120000">Chaudiere 31kw Ventouse Motan Roumanie /option>
-      <option value="128500">Chaudiere 31kw Ventouse Chappee Italie</option>
-      
-        <option value="142900">Chaudiere 35kw Ventouse Riello Italie</option>
-        
-         <option value="148900">Chaudiere 35kw Ventouse Beretta Italie</option>
-      
-        <option value="139900">Chaudiere 35kw Ventouse Ravenheat Italie</option>
-       
-        <option value="193000">Chaudiere 35kw + Ventouse Saunier Duval</option>
-        
-         <option value="159500">Chaudiere sol Chappee 31kw</option>
-         
-          <option value="179500">Chaudiere sol Chappee 39kw</option>
-          
-          <option value="199500">Chaudiere sol Chappee 49kw</option>
-          
-          <option value="214500">Chaudiere sol Chappee 61kw</option>
-          
-        
-          <option value="0"></option>
-
-           </select> <input style="height: 2em; width: 3em;" id="quantite1" type="text" name="quantite1" onchange="prix()" value="0" /> <input id="" type="text" /> </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-            <p><select style="height: 2em; width: 55%;" id="option2" name="option2" onchange="prix()">
-            
-             <option value="1200">Elements Radiateurs Calda </option>
-            
-            <option value="1200">Elements Radiateurs italradiatori</option>
-            <option value="1300">Elements Radiateurs Helyos Italie</option>
-            <option value="1300">Elements Radiateurs Global Italie</option>
-             <option value="1300">Elements Radiateurs Decoral Italie</option>
-              
-              <option value="0"></option>
-            
-            </select> <input style="height: 2em; width: 3em;" id="quantite2" type="text" name="quantite2" onchange="prix()" value="0" /> <input id="" type="text" /> </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-            <p><select style="height: 2em; width: 55%;" id="option5" name="option5" onchange="prix()">
-            <option selected="selected" value="350">Kit reductions et supports 11pcs </option>
-            <option value="300">Kit reductions 7pcs</option>
-            
-            <option value="0"></option>
-            
-           </select> <input style="height: 2em; width: 3em;" id="quantite5" type="text" name="quantite5" onchange="prix()" value="0" /> <input id="" type="text" /> </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-            <p><select style="height: 2em; width: 55%;" id="option4" name="option4" onchange="prix()">
-            <option selected="selected" value="6500"> Seche serviettes 80cm acier blanc Elite Italie</option>
-            
-            <option value="6500"> Seche serviettes 80cm acier blanc Italradiatori</option>
-            
-            <option value="6500">Seche serviette 80cm Blanc acier Elegant</option>
-            <option value="7500">Seche serviette 80cm Blanc acier Brandoni Italie</option>
-           
-             <option value="6500">Seche serviettes 1m acier Blanc Toprak</option>
-            
-           <option value="7500"> Seche serviettes 1m acier blanc Italradiatori</option>
-             
-              <option value="8500">Seche serviettes 1.20m acier Blanc Sanica</option>
-             <option value="8500"> Seche serviettes 1.20m acier blanc Italradiatori</option>
- 
-              <option value="8500">Seche serviettes 1.20m acier Blanc Elegant</option>
-            <option value="9000">Seche serviettes 1.20m acier Blanc Brandoni Italie</option>
-            
-            <option value="11900">Seche serviette 80cm aluminium Blanc Global Italie</option>
-          
-             <option value="16500">Seche serviette 1.20m aluminium Blanc Slim radiatori Italie</option>
-             <option value="18500">Seche serviette 1.20m aluminium Radiatori Italie</option>
-              <option value="16900">Seche serviette 80cm aluminium chrome Radiatori Italie</option>
-              
-              <option value="0"></option>
-            
-           </select> <input style="height: 2em; width: 3em;" id="quantite4" type="text" name="quantite4" onchange="prix()" value="0" /> <input id="" type="text" /> </p>
-            </td>
-        </tr>
-        <tr>
-             <td>
-            <p><select style="height: 2em; width: 55%;" id="option3" name="option3" onchange="prix()">
-            <option selected="selected" value="1200"> Robinets radiateurs pex Italie</option>
-           
-            <option value="1600">Robinets radiateurs pex Giacomini</option>
-             <option value="1200">Robinets radiateurs pex FDH</option>
-             
-             <option value="1100">Robinets radiateurs ICM Italie</option>
-            
-            <option value="950">Robinets radiateurs BNB</option>
-            
-            
-            
-            <option value="0"></option>
-            
-           </select> <input style="height: 2em; width: 3em;" id="quantite3" type="text" name="quantite3" onchange="prix()" value="0" /> <input id="" type="text" /> </p>
-            </td>
-        </tr>
-            
-             <tr>
-            <td>
-            <p><select style="height: 2em; width: 55%;" id="option18" name="option18" onchange="prix()">
-            <option selected="selected" value="7000">Socle chaudiere Saunier Duval </option>
-            <option value="8500">Vase expansion 50L Italie</option>
-            
-            <option value="0"></option>
-            
-           </select> <input style="height: 2em; width: 3em;" id="quantite18" type="text" name="quantite18" onchange="prix()" value="0" /> <input id="" type="text" /> </p>
-            </td>
-        </tr>
-            
-            
-        <tr>
-            <td>
-            <p><select style="height: 2em; width: 55%;" id="option7" name="option7" onchange="prix()">
-            <option selected="selected" value="600">Nourisses 1 voie a vanne Italie</option>
-            <option value="600">Te mtc 20-16-20 Sertir Italie</option>
-             <option value="600">Te mtc 20-16-20 raccord Italie</option>
-           
-              <option value="140">Te cuivre 22-16-22 Italie</option>
-              
-              <option value="0"></option>
-            
-           </select> <input style="height: 2em; width: 3em;" id="quantite7" type="text" name="quantite7" onchange="prix()" value="0" /> <input id="" type="text" /> </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-            <p><select style="height: 2em; width: 55%;" id="option8" name="option8" onchange="prix()">
-            <option value="1200">Coffret nourisses 30cm</option>
-            <option value="1300">Coffret nourisses 40cm</option>
-            <option value="1400">Coffret nourisses 50cm</option>
-            <option value="2400">Coffret nourisses 60cm</option>
-            <option value="20">Colliers multicouche 20 double</option>
-            <option value="3300">Barre cuvre 22/5m 1mm </option>
-            
-            <option value="0"></option>
-            
-          </select> <input style="height: 2em; width: 3em;" id="quantite8" type="text" name="quantite8" onchange="prix()" value="0" /> <input id="" type="text" /> </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-            <p><select style="height: 2em; width: 55%;" id="option6" name="option6" onchange="prix()">
-            <option value="1250">Robinets equerre mtc Italie</option>
-            <option value="850">Robinets equerre mtc GLR</option>
-            <option value="600">Te multicouche 20 sertir Italie</option>
-             <option value="140">Te cuivre 22</option>
-            <option value="2200">Barre cuivre 16/5m 1mm</option>
-            
-            <option value="0"></option>
-            
-           </select> <input style="height: 2em; width: 3em;" id="quantite6" type="text" name="quantite6" onchange="prix()" value="0" /> <input id="" type="text" /> </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-     <p><select style="height: 2em; width: 55%;" id="option9" name="option9" onchange="prix()">
-            <option value="5500">Multicouche 16/50m gainee PEXITALY</option>
-            <option value="6500">Multicouche16 16/50m gainee PLASTICA ITALY</option>
-            <option value="6500">Multicouche 16/50m Calorifuge Italie</option>
-            <option value="105">Multicouche 20/m nu Italie</option>
-            <option value="75">Multicouche 16/m nu Italie</option>
-            <option value="17900">Multicouche 16 double combi henco</option>
-            <option value="16900">Multicouche 16 double gainee APE</option>
-           <option value="10500">Multicouche 20/50m nu Italie</option>
-            <option value="9500">Multicouche 20/50m gainee Italie</option>
-            <option value="9500">Multicouche 20/50m Calorifuge Italie</option>
-             <option value="60">Bout a souder bronze 16-1/2 male</option>
-             
-             <option value="0"></option>
-            
-            </select> <input style="height: 2em; width: 3em;" id="quantite9" type="text" name="quantite9" onchange="prix()" value="0" /> <input id="" type="text" /> </p>
-            </td>
-        </tr>
-        
-        
-    </tbody>
-</table>
-</center>
-
-
-
-<center><script language="javascript">
-/*
-SCRIPT JAVASCRIPT
-
-*/
-function controle()
-{
-	if(document.getElementById)
-	{
-		if(document.affichage.oui.checked)
-        {
-        document.getElementById("doui").style.visibility = 'visible';
-        }
-        else
-        {
-        document.getElementById("doui").style.visibility = 'hidden';
-        }
-        if(document.affichage.non.checked)
-        {
-        document.getElementById("dnon").style.visibility = 'visible';
-        }
-        else
-        {
-        document.getElementById("dnon").style.visibility = 'hidden';
-        }
-	}
-	else if(document.all)
-	{
-		if(document.affichage.oui.checked)
-        {
-        document.all["doui"].style.visibility = 'visible';
-        }
-        else
-        {
-        document.all["doui"].style.visibility = 'hidden';
-        }
-        if(document.affichage.non.checked)
-        {
-        document.all["dnon"].style.visibility = 'visible';
-        }
-        else
-        {
-        document.all["dnon"].style.visibility = 'hidden';
-        }
-	}
+.chat-container {
+    position: fixed;
+    bottom: 60px;
+    right: 5px;
+    width: 380px; /* Légère augmentation de la largeur */
+    height: 600px; /* Légère augmentation de la hauteur */
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    display: block; /* Toujours visible */
+    z-index: 1000;
+    border: 1px solid #e0e0e0; /* Bordure subtile */
 }
+
+.chat-header {
+    background: linear-gradient(45deg, #075e54, #0a8d7a); /* Gradient pour l'en-tête */
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.chat-messages {
+    height: 420px; /* Ajustement pour la nouvelle hauteur */
+    overflow-y: auto;
+    padding: 20px;
+    background: #f9f9f9; /* Fond légèrement gris pour les messages */
+}
+
+.message {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.message.received {
+    justify-content: flex-start;
+}
+
+.message.sent {
+    justify-content: flex-end;
+}
+
+.message-content {
+    max-width: 100%;
+    padding: 10px 15px;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.received .message-content {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    color: #333;
+}
+
+.sent .message-content {
+    background: #075e54;
+    color: white;
+}
+
+.message-content img {
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.chat-input {
+    border-top: 1px solid #ddd;
+    padding: 15px;
+    display: flex;
+    background: white;
+    align-items: center;
+    gap: 10px;
+}
+
+.chat-input input {
+    flex: 1;
+    border: 1px solid #ddd;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 20px;
+    background: #f5f7fa;
+}
+
+.chat-input button {
+    background: #075e54;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.chat-input button:hover {
+    background: #054d44;
+    transform: translateY(-2px);
+}
+
+.restart-button {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.restart-button:hover {
+    background: #c82333;
+    transform: translateY(-2px);
+}
+
+/* Style pour le menu déroulant */
+select#brandSelect {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background: #f5f7fa;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+select#brandSelect:focus {
+    outline: none;
+    border-color: #075e54;
+}
+</style>
+<!-- Code complet fourni à réimplanter -->
+<center>
+<style type="text/css">.switcher {font-family:Arial;font-size:12pt;text-align:left;cursor:pointer;overflow:hidden;width:173px;line-height:17px;}
+.switcher a {text-decoration:none;display:block;font-size:12pt;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
+.switcher a img {vertical-align:middle;display:inline;border:0;padding:0;margin:0;opacity:0.8;}
+.switcher a:hover img {opacity:1;}
+.switcher .selected {background:#fff linear-gradient(180deg, #efefef 0%, #fff 70%);position:relative;z-index:9999;}
+.switcher .selected a {border:1px solid #ccc;color:#666;padding:3px 5px;width:161px;}
+.switcher .selected a:after {height:24px;display:inline-block;position:absolute;right:10px;width:15px;background-position:50%;background-size:11px;background-image:url("data:image/svg+xml;utf8,<svg xmlns='https://shopping-rouiba.fr.gd' width='16' height='16' viewBox='0 0 285 285'><path d='M282 76.5l-14.2-14.3a9 9 0 0 0-13.1 0L142.5 174.4 30.3 62.2a9 9 0 0 0-13.2 0L3 76.5a9 9 0 0 0 0 13.1l133 133a9 9 0 0 0 13.1 0l133-133a9 9 0 0 0 0-13z' style='fill:%23666'></path></svg>");background-repeat:no-repeat;content:""!important;transition:all .2s;}
+.switcher .selected a.open:after {-webkit-transform: rotate(-180deg);transform:rotate(-180deg);}
+.switcher .selected a:hover {background:#fff}
+.switcher .option {position:relative;z-index:9998;border-left:1px solid #ccc;border-right:1px solid #ccc;border-bottom:1px solid #ccc;background-color:#eee;display:none;width:171px;max-height:198px;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;overflow-y:auto;overflow-x:hidden;}
+.switcher .option a {color:#000;padding:3px 5px;}
+.switcher .option a:hover {background:#fff;}
+.switcher .option a.selected {background:#fff;}
+#selected_lang_name {float: none;}
+.l_name {float: none !important;margin: 0;}
+.switcher .option::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 3px rgba(0,0,0,0.3);border-radius:5px;background-color:#f5f5f5;}
+.switcher .option::-webkit-scrollbar {width:5px;}
+.switcher .option::-webkit-scrollbar-thumb {border-radius:5px;-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.3);background-color:#888;}
+</style>
+<div class="switcher notranslate">
+<div class="selected"><a href="#" onclick="return false;"><img alt="Trad" height="24" src="//img.webme.com/pic/c/chauffage-algerie/trad.png" width="24" /> الترجمة</a></div>
+
+<div class="option"><a class="nturl" href="#" onclick="doGTranslate('fr|ar');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="Arabic"><img alt="ar" data-gt-lazy-src="//img.webme.com/vorschau/c/chauffage-algerie/arab.jpg" height="24" width="24" /> العربية </a><a class="nturl" href="#" onclick="doGTranslate('fr|en');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="English"><img alt="en" data-gt-lazy-src="//img.webme.com/pic/s/shopping-rouiba/en.png" height="24" width="24" /> English</a><a class="nturl selected" href="#" onclick="doGTranslate('fr|fr');jQuery('div.switcher div.selected a').html(jQuery(this).html());return false;" title="French"><img alt="fr" data-gt-lazy-src="//img.webme.com/pic/s/shopping-rouiba/fr.png" height="24" width="24" /> Francais</a></div>
+</div>
+<script>
+jQuery('.switcher .selected').click(function() {jQuery('.switcher .option a img').each(function() {if(!jQuery(this)[0].hasAttribute('src'))jQuery(this).attr('src', jQuery(this).attr('data-gt-lazy-src'))});if(!(jQuery('.switcher .option').is(':visible'))) {jQuery('.switcher .option').stop(true,true).delay(100).slideDown(500);jQuery('.switcher .selected a').toggleClass('open')}});
+jQuery('.switcher .option').bind('mousewheel', function(e) {var options = jQuery('.switcher .option');if(options.is(':visible'))options.scrollTop(options.scrollTop() - e.originalEvent.wheelDelta);return false;});
+jQuery('body').not('.switcher').click(function(e) {if(jQuery('.switcher .option').is(':visible') && e.target != jQuery('.switcher .option').get(0)) {jQuery('.switcher .option').stop(true,true).delay(100).slideUp(500);jQuery('.switcher .selected a').toggleClass('open')}});
 </script>
+<style type="text/css">#goog-gt-tt {display:none !important;}
+.goog-te-banner-frame {display:none !important;}
+.goog-te-menu-value:hover {text-decoration:none !important;}
+.goog-text-highlight {background-color:transparent !important;box-shadow:none !important;}
+body {top:0 !important;}
+#google_translate_element2 {display:none!important;}
+</style>
+<div id="google_translate_element2">&nbsp;</div>
+<script>
+function googleTranslateElementInit2() {new google.translate.TranslateElement({pageLanguage: 'fr',autoDisplay: false}, 'google_translate_element2');}
+</script><script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script><script>
+function GTranslateGetCurrentLang() {var keyValue = document['cookie'].match('(^|;) ?googtrans=([^;]*)(;|$)');return keyValue ? keyValue[2].split('/')[2] : null;}
+function GTranslateFireEvent(element,event){try{if(document.createEventObject){var evt=document.createEventObject();element.fireEvent('on'+event,evt)}else{var evt=document.createEvent('HTMLEvents');evt.initEvent(event,true,true);element.dispatchEvent(evt)}}catch(e){}}
+function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];if(GTranslateGetCurrentLang() == null && lang == lang_pair.split('|')[0])return;var teCombo;var sel=document.getElementsByTagName('select');for(var i=0;i<sel.length;i++)if(sel[i].className.indexOf('goog-te-combo')!=-1){teCombo=sel[i];break;}if(document.getElementById('google_translate_element2')==null||document.getElementById('google_translate_element2').innerHTML.length==0||teCombo.length==0||teCombo.innerHTML.length==0){setTimeout(function(){doGTranslate(lang_pair)},500)}else{teCombo.value=lang;GTranslateFireEvent(teCombo,'change');GTranslateFireEvent(teCombo,'change')}}
+if(GTranslateGetCurrentLang() != null)jQuery(document).ready(function() {var lang_html = jQuery('div.switcher div.option').find('img[alt="'+GTranslateGetCurrentLang()+'"]').parent().html();if(typeof lang_html != 'undefined')jQuery('div.switcher div.selected a').html(lang_html.replace('data-gt-lazy-', ''));});
+</script></center>
 
+<p style="text-align: center;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CODES ERREURS CHAUDI&Egrave;RES</font></font></font></font></b></p>
 
+<p><font style="vertical-align: inherit;"><!-- Conteneur du chatbot --> </font></p>
+
+<div class="chat-container" id="chatContainer">
+<div class="chat-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ihadadene.com &copy;</font></font></font></font><a href="tel:0550081152"><img src="http://www.ihadadene.com/medias/images/chatbot.png?fx=c_30_30" width="30" /></a><button class="restart-button" onclick="restartConversation()"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Effacer la recherche</font></font></font></button></div>
+
+<div class="chat-messages" id="messageArea">
+<div class="message received">
+<div class="message-content"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">S&eacute;lectionnez la marque de la chaudi&egrave;re, puis tapez le code erreur dans la barre de recherche</font></font></font><br />
+<select id="brandSelect" onchange="selectBrand()"><option value="">Choisissez une marque de chaudi&egrave;res</option><option value="saunier_duval">Saunier Duval</option><option value="riello">Riello</option><option value="beretta">Beretta</option><option value="immergas">Immergas</option><option value="motan">Motan</option><option value="chappee">Chappee</option><option value="facofri">Facofri</option><option value="energical">&Eacute;nerg&eacute;tique</option><option value="sime">Sime</option><option value="junkers">Junkers</option><option value="copa">Coup&eacute;</option><option value="ferroli">Ferroli</option><option value="viesmann">Viesmann</option> </select></div>
+</div>
+</div>
+
+<div class="chat-input"><input id="messageInput" placeholder="Tapez un code d'erreur valide" type="text" /><button onclick="sendMessage()"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Rechercher</font></font></font></button></div>
+</div>
+<!-- Script JavaScript --><script>
+const messageArea = document.getElementById('messageArea');
+const messageInput = document.getElementById('messageInput');
+const chatContainer = document.getElementById('chatContainer');
+let selectedBrand = '';
+
+function displayMessage(text, isSent) {
+    const messageDiv = document.createElement('div');
+    messageDiv.classList.add('message', isSent ? 'sent' : 'received');
+    const messageContent = document.createElement('div');
+    messageContent.classList.add('message-content');
+    messageContent.innerHTML = text;
+    messageDiv.appendChild(messageContent);
+    messageArea.appendChild(messageDiv);
+    messageArea.scrollTop = messageArea.scrollHeight;
+}
+
+function selectBrand() {
+    const brandSelect = document.getElementById('brandSelect');
+    selectedBrand = brandSelect.value;
+    if (selectedBrand) {
+        displayMessage(`Marque sélectionnée : <b>${brandSelect.options[brandSelect.selectedIndex].text}</b>. Tapez un <b>Code</b> erreur valide qui correspond à la chaudière sélectionnée.`, false);
+    }
+}
 
 
     
-<div id="doui" style="position:relative;visibility:hidden">
+    
+function getBotResponse(message) {
+    message = message.toLowerCase().trim();
 
-<table width="85%" height="" border="1" cellpadding="1" cellspacing="1">
-    <tbody>
-              
-            
-        
-              
-         <tr>
-          <td>
-     <p><select id="option10" name="option10" onchange="prix()">
-          
-            <option value="1">
-         <input style="height: 2em; width: 49%;" id="" type="text" /></option>
-          
-            </select> 
-             
-         
-                                           <input style="height: 2em; width: 3em;" id="quantite10" type="text" name="quantite10" onchange="prix()" value="0" />
-                                           <input style="height: 2em; width: 8em;" id="quantite10A" type="text" name="quantite10A" onchange="prix()" value="0" />
-                                           
-</p>
-            </td>
-        </tr>
-        
-         <tr>
-            <td>
-            <p><select id="option11" name="option11" onchange="prix()">
-          
-            <option value="1">
-           <input style="height: 2em; width: 49%;" id="" type="text" /></option>
-          
-           </select> 
-             
-           
-                                           <input style="height: 2em; width: 3em;" id="quantite11" type="text" name="quantite11" onchange="prix()" value="0" />
+    // Réponses statiques pour mots-clés génériques
+    const staticResponses = {
+        'prix': 'Nos prix varient selon les produits. Contactez le <a href="tel:0550081152">0550 08 11 52</a>, les meilleurs prix vous seront proposés.',
+        'chaudière': 'Nous proposons différents types de chaudières. Voulez-vous des infos sur une marque en particulier ? <br>Entrez la marque de la chaudière dans la barre de recherche ci-dessous.',
+        'contact': 'Vous pouvez nous joindre au <a href="tel:0550081152">0550 08 11 52</a>.',
+        'radiateurs': 'Nous avons des différents modèles de radiateurs aluminium made in Italie qui sont disponibles en batterie de 08 10 12 éléments.',
+        'localisation': 'Nous sommes situés à route du nouveau stade de Rouiba Alger.',
+        'disponibilité': 'Nous sommes ouverts du samedi au jeudi, de 8h à 20h.',
+        'produits': 'Nous vendons des chaudières, radiateurs, et pièces détachées pour chaudières, outillage, quincaillerie. Que cherchez-vous ?',
+        'panne': 'Si vous avez une panne chaudières. Sélectionnez la marque de chaudière, puis tapez le <b>Code</b> erreur dans la barre de recherche. <br>Besoin de techniciens ou de pièces de rechange pour chaudières. Contactez le <br><a href="tel:0550081152">0550 08 11 52</a> ou le <a href="tel:0550691630">0550 69 16 30</a>.',
+        'pièces': 'Nous avons des pièces de rechange pour la majorité des chaudières disponible en Algérie. Contactez le <a href="tel:0550081152">0550 08 11 52</a> pour confirmer le prix et la disponibilité.<br>En savoir plus sur <a href="http://www.ihadadene.com/pages/produits/pieces-chaudieres-algerie.html">Pièces de rechange chaudières</a>.',
+        'saunier': 'Saunier Duval est une marque Française. Disponible en 25kw 30kw et 35kw ventouse<br> En savoir Plus sur <a href="http://www.ihadadene.com/pages/chaudieres/chaudieres-saunier-duval-algerie.html">SAUNIER DUVAL</a>.',
+        'energical': 'Energical est une marque Algérienne. Disponible en 24kw 28kw ventouse<br> En savoir plus sur <a href="http://www.ihadadene.com/pages/chaudieres/chaudiere-energical-algerie-.html">ENERGICAL</a>.',
+        'facofri': 'Facofri est une marque Algérienne. Disponible en 24kw 28kw ventouse<br> En savoir plus sur <a href="http://www.ihadadene.com/pages/chaudieres/chaudieres-facofri-algerie-.html">FACOFRI</a>.',
+        'motan': 'Motan est une marque Roumaine. Disponible en 24kw 28kw et 31kw ventouse et condensation<br> En savoir plus sur <a href="http://www.ihadadene.com/pages/chaudieres/chaudieres-motan-algerie.html">MOTAN</a>.',
+        'chappee': 'Chappee est une marque Italienne. Disponible en 24kw 28kw et 31kw ventouse <br> En savoir plus sur <a href="http://www.ihadadene.com/pages/chaudieres/chaudiere-chappee-algerie.html">CHAPPEE</a>.',
+        'immergas': 'Immergas est une marque Italienne. Disponible en 24kw 28kw et 32kw ventouse <br> En savoir plus sur <a href="http://www.ihadadene.com/pages/chaudieres/chaudiere-immergas-algerie.html">IMMERGAS</a>.',
+        'beretta': 'Beretta est une marque Italienne. Disponible en 24kw 28kw 30kw et 35kw ventouse <br> En savoir plus sur <a href="http://www.ihadadene.com/pages/chaudieres/chaudiere-beretta.html">BERETTA</a>.',
+        'riello': 'Riello est une marque Italienne. Disponible en 24kw 28kw et 35kw ventouse <br> En savoir plus sur <a href="http://www.ihadadene.com/pages/chaudieres/chaudieres-riello-algerie.html">RIELLO</a>.'
+    };
 
-<input style="height: 2em; width: 8em;" id="quantite11A" type="text" name="quantite11A" onchange="prix()" value="0" /> 
-            
-</p>
-            </td>
-        </tr>
-            
-         <tr>
-            <td>
-            <p><select id="option12" name="option12" onchange="prix()">
-          
-            <option value="1">
-          <input style="height: 2em; width: 49%;" id="" type="text" /></option>
-          
-            </select> 
-             
-           
-                                           <input style="height: 2em; width: 3em;" id="quantite12" type="text" name="quantite12" onchange="prix()" value="0" />
-                                           <input style="height: 2em; width: 8em;" id="quantite12A" type="text" name="quantite12A" onchange="prix()" value="0" />
-</p>
-            </td>
-        </tr>
-         
-         <tr>
-            <td>
-            <p><select id="option13" name="option13" onchange="prix()">
-          
-            <option value="1">
-          <input style="height: 2em; width: 49%;" id="" type="text" /></option>
-          
-           </select> 
-             
-         
-                                           <input style="height: 2em; width: 3em;" id="quantite13" type="text" name="quantite13" onchange="prix()" value="0" />
-  
-<input style="height: 2em; width: 8em;" id="quantite13A" type="text" name="quantite13A" onchange="prix()" value="0" />
-</p>
-            </td>
-        </tr>
-        
-         <tr>
-            <td>
-            <p><select id="option14" name="option14" onchange="prix()">
-          
-            <option value="1">
-           <input style="height: 2em; width: 49%;" id="" type="text" /></option>
-          
-           </select> 
-             
-            
-                                           <input style="height: 2em; width: 3em;" id="quantite14" type="text" name="quantite14" onchange="prix()" value="0" />
- 
-<input style="height: 2em; width: 8em;" id="quantite14A" type="text" name="quantite14A" onchange="prix()" value="0" />
-  
-</p>
-            </td>
-        </tr>
-        
-          <tr>
-            <td>
-            <p><select id="option15" name="option15" onchange="prix()">
-          
-            <option value="1">
-           <input style="height: 2em; width: 49%;" id="" type="text" /></option>
-          
-           </select> 
-             
-            
-                                           <input style="height: 2em; width: 3em;" id="quantite15" type="text" name="quantite15" onchange="prix()" value="0" />
- 
-<input style="height: 2em; width: 8em;" id="quantite15A" type="text" name="quantite15A" onchange="prix()" value="0" />
-  
-</p>
-            </td>
-        </tr>
- 
-              <tr>
-            <td>
-            <p><select id="option16" name="option16" onchange="prix()">
-          
-            <option value="1">
-           <input style="height: 2em; width: 49%;" id="" type="text" /></option>
-          
-           </select> 
-             
-            
-                                           <input style="height: 2em; width: 3em;" id="quantite16" type="text" name="quantite16" onchange="prix()" value="0" />
- 
-<input style="height: 2em; width: 8em;" id="quantite16A" type="text" name="quantite16A" onchange="prix()" value="0" />
-  
-</p>
-            </td>
-        </tr>
-        
-          <tr>
-            <td>
-            <p><select id="option17" name="option17" onchange="prix()">
-          
-            <option value="1">
-           <input style="height: 2em; width: 49%;" id="" type="text" /></option>
-          
-           </select> 
-             
-            
-                                           <input style="height: 2em; width: 3em;" id="quantite17" type="text" name="quantite17" onchange="prix()" value="0" />
- 
-<input style="height: 2em; width: 8em;" id="quantite17A" type="text" name="quantite17A" onchange="prix()" value="0" />
-  
-</p>
-            </td>
-        </tr>
-        
-          
-        
-        </tbody>
-                             </table>                                                                                                          </div>
-                                                
-                                                <div id="dnon" style="position:relative;visibility:hidden">
-  
-  <table width="85%" border="1" cellpadding="1" cellspacing="1">
-    <tbody>
-        <tr>
-            <td style="text-align: center;">
-            <p><select style="height: 2em; width: 100%;" id="option" name="option" onchange="prix()">
-            <option selected="selected" value="0">Prix Accessoires multicouche</option>
-            <option value="75">Multicouche 16/nu (ml) Italie = 75 DA</option>
-            <option value="115">Multicouche 20/nu (ml) Italie = 115 DA </option>
-            <option value="260">Multicouche 26/nu (ml) Italie = 260 DA</option>
-            <option value="400">Multicouche 32/nu (ml) Italie = 400 DA</option>
-            <option value="400">Te mtc 16 Sertir Italie = 400 DA</option>
-            <option value="450">Te mtc 16 a raccord Italie = 450 DA</option>
-            <option value="750">Te mtc 20 a raccord Italie = 750 DA </option>
-            <option value="550">Te mtc 20 Sertir Italie = 550 DA</option>
-            <option value="1200">Te mtc 26 Italie = 1200 DA</option>
-            <option value="600">Te mtc reduit 20-16 Sertir Italie = 600 DA</option>
-            <option value="850">Te mtc reduit 20-16 raccord Italie = 850 DA</option>
-            <option value="1200">Te mtc reduit 26-20 Sertir tiemme Italie = 1200 DA </option>
-            <option value="1300">Te mtc reduit 26-20 raccord tiemme Italie = 1300 DA</option>
-            <option value="380">Manchon mtc 20/16 sertir  Italie = 380 DA</option>
-            <option value="650">Manchon mtc 20/16 raccord  Italie = 650 DA</option>
-            <option value="350">Manchon mtc 20 sertir  Italie = 350 DA</option>
-            <option value="600">Manchon mtc 20 raccord  Italie = 600 DA</option>
-            <option value="15">Collier mtc 16 double = 15 DA</option>
-            <option value="10">Collier mtc 16 simple = 20 DA</option>
-            <option value="20">Collier mtc 20 double = 20 DA</option>
-            <option value="15">Collier mtc 20 simple = 15 DA</option>
-            <option value="25">Collier mtc 26 simple = 25 DA</option>
-            <option value="250">Raccord 16-1/2 sertir Italie = 250 DA</option>
-            <option value="200">Raccord 16-1/2 raccord Italie = 200 DA</option>
-            <option value="650">Coude ecrou libre 20-3/4 Italie = 650 DA</option>
-            <option value="650">Coude ecrou libre 16-1/2 Italie = 650 DA</option>
-            <option value="120">Tube monocouche 16 Italie (ml) = 120 DA</option>
-            <option value="1200"> Plaque polystyrene vert (ml) = 1200 DA</option>
-            <option value="0"></option>
-            </select></p>
-            </td>
-            <td style="text-align: center;">
-            <p><select style="height: 2em; width: 100%;" id="option" name="option" onchange="prix()">
-            <option selected="selected" value="0">Prix Accessoires cuivre et autres </option>
-            <option value="450">Cuivre 14/1mm (ml) = 450 DA</option>
-            <option value="500">Cuivre 16/1mm (ml) = 500 DA</option>
-            <option value="700">Cuivre 22/1mm (ml)  = DA </option>
-            <option value="1100">Cuivre 28/1mm (ml) = 1100 DA </option>
-            <option value="140">Te cuivre 22 = 140 DA</option>
-            <option value="140">Te cuivre 22-16 = 140 DA</option>
-            <option value="80">Manchon cuivre 22/16 = 80 DA</option>
-            <option value="60">Manchon cuivre 22  = 60 DA</option>
-            <option value="20">Collier atlas 16 double = 20 DA</option>
-            <option value="12">Collier atlas 16 simple = 12 DA</option>
-            <option value="20">Collier atlas 16 simple joint = 20 DA</option>
-            <option value="20">Collier atlas 22 double = 20 DA</option>
-            <option value="15">Collier atlas 22 simple = 15 DA</option>
-            <option value="25">Collier atlas 22 simple joint = 25 DA</option>
-            <option value="250">Bout souder 16-1/2 bronze = 250 DA </option>
-            <option value="700">Purgeur automatique droit Giacomini Italie = 700 DA</option>
-            <option value="900">Purgeur automatique coude Tiemme Italie = 900 DA</option>
-            <option value="200">Coude cuivre 2pcs 22 = 200 DA </option>
-            <option value="200">Teflon GM = 200 DA</option>
-            <option value="50">Baguette fausse brazure = 50 DA</option>
-            <option value="220">Baguette argent = 220 DA</option>
-            <option value="2">cheville 08 bleu = 2 DA</option>
-            <option value="3">cheville 10 bleu = 3 DA </option>
-            <option value="3">Vis 4/40 = 3 DA </option>
-             <option value="1800">Prise protection = 1800 DA </option>
-            <option value="0"></option>
-            </select></p>
-            </td>
-        </tr>
-    </tbody>
-</table>
-        
-         <table width="85%" height="" border="1" cellpadding="1" cellspacing="1">
-    <tbody>
-            
-             
-        
-        <tr>
-            
-            <td>
-              <input style="height: 2em; width: 11em;" value="TOTAL:" type="text" /> <select id="option19" name="option19" onchange="prix()">
-          
-           <option value="1">
-           Transport</option>
-           <option value="-1">
-           Versement</option>
-           <option value="1">
-           Credit</option>
-           <option value="1"> Main d'oeuvres </option>
-           <option value="-1">
-           Remise</option>
-          
-            </select>                      <input style="height: 2em; width: 3em;" id="quantite19" type="text" name="quantite19" onchange="prix()" value="0" />
-            
-            <select id="option20" name="option20" onchange="prix()">
-           <option value="-1">
-           Versement</option>
-           
-           <option value="1">
-           Transport</option>
-           <option value="1">
-           Credit</option>
-          <option value="1">
-           Main d'oeuvres</option>
-  <option value="-1">
-           Remise</option>
-          
-            </select>                      <input style="height: 2em; width: 4em;" id="quantite20" type="text" name="quantite20" onchange="prix()" value="0" />
-            
-            
-        
-       
-         </td>
-        </tr>
-      
-        
-         
-        </tbody>
-        </table>
-        </div>
-        
-         
-        
-        
-        
-        
-        
-        <table width="85%" height="" border="1" cellpadding="1" cellspacing="1">
-    <tbody>
-        
-        <tr>
-            <td>  <div style="text-align: center;"><input onclick="" type="button" value="Net a payer" />   
-        
-       
-            <span style="font-size: x-large;"><strong><span style="color: #000000;"><span id="prix">0</span> DA</span></strong></span><br><br>
-             </td>
-            </tr>
-        
+    if (staticResponses[message]) {
+        return staticResponses[message];
+    }
+
+    if (!selectedBrand) {
+        return 'Veuillez d’abord sélectionner la marque de votre chaudière ci-dessus pour accéder aux <b>Code</b> erreurs ou taper un mot-clé pour rechercher autres chose comme "pièces", "riello" "contact", etc...';
+    }
+
+           const responses = {
+                'saunier_duval': {
+                    'allumage': '<span style="color: red;">Défaut d’allumage</span><br><b>Si le brûleur s’allume et s’éteint au bout de 10 secondes :</b><br>- Vérifiez l’électrode d’ionisation, la bougie d’allumage et son raccordement.<br>- Vérifiez le code de configuration 15 dans le menu chaudière (par un professionnel).<br><br>Si le brûleur ne s’allume pas :<br>- Vérifiez l’ouverture du robinet de gaz.<br>- Vérifiez le mécanisme de gaz.<br>- Vérifiez l’électrode d’allumage <br>S’il n’y a pas de train d’étincelles : Vérifiez le raccordement de l’allumeur ou l’allumeur lui-même.<br><br><center><b>Pièces :</b><br><br> Mécanisme gaz REF S1071400 <br><img src="http://www.ihadadene.com/medias/images/S1071400.jpg"  style="max-width: 70%; height: auto;"><br> <br>électrode allumage REF 0020200638 <br><img src="http://www.ihadadene.com/medias/images/0020200638.JPG"  style="max-width: 50%; height: auto;"><br><br> Allumeur récurrent REF S5742700 <br><img src="http://www.ihadadene.com/medias/images/S5742700.jpg"  style="max-width: 50%; height: auto;"><br><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+
+                    'pression': '<span style="color: red;">Défaut eau circuit</span><br><b>Manque d’eau :</b> Pression < 0.5 bar, faites l’appoint.<br><b>Trop d’eau :</b> Pression > 2.7 bar, purgez.',
+                    'f2': 'Code <span style="color: red;">F2</span> : Sécurité de refoulement cheminée<br><b>Chaudière cheminée :</b> Tentative de réallumage après 15 min si le contact s’est refermé.<br>- Vérifiez les raccordements électriques, le bouchage ou la conformité de la cheminée.<br><b>Chaudière ventouse :</b> Sécurité débit air, apparaît après 40 secondes.<br>- Vérifiez la ventouse ou le système d’évacuation (bouchage ou trop long), le pressostat et les raccordements électriques.<br><br><center><b>Pièces :</b><br> Pressostat REF S1008900 <br><img src="http://www.ihadadene.com/medias/images/S1008900.jpg"  style="max-width: 70%; height: auto;"><br><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+
+                    'f3': 'Code <span style="color: red;">F3</span> : Défaut air répétitif<br><b>Cause :</b> Avec une VMC, le thermostat à réarmement manuel déclenche ce code en cas de coupure.',
+
+
+                  'f5': 'Code <span style="color: red;">F5</span> : Défaut boucle surchauffe<br><b>Cause :</b> Pompe bloquée (essayez de la débloquer manuellement) ou condensateur HS, robinet de plaque/installation fermé, thermostat surchauffe défectueux.<br><b>Solution :</b> Purgez l’air, vérifiez les raccordements électriques.<br><br><center><b>Pièces :</b><br> Moteur pompe REF S1024000 <br><img src="http://www.ihadadene.com/medias/images/S1024000.jpg"  style="max-width: 70%; height: auto;"><br><br>Thermostat surchauffe REF S1008000.<br><img src="http://www.ihadadene.com/medias/images/S1008000.jpg" alt="Thermostat surchauffe REF S1008000" style="max-width: 70%; height: auto;"><br><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
                   
-       <tr>
-            <td style="text-align: center;"> <span style="font-size: small;">Produits de qualit&eacute; Europ&eacute;enne.  Chaudi&egrave;res garantie par le fabricant ou l'importateur<br> Pieces de rechanges disponibles chez ihadadene.com<br /></san>
- <span style="font-size: x-small;">
-L'&eacute;tablissement ne garantie les prix indiqu&eacute;s et la disponibilit&eacute; des produits que dans la limite des stocks disponibles.</span><br />
-          </td>
-        </tr>
-       
-            
-        <tr>
-        
-            <td align="center" colspan="3"><span style="font-family: verdana; font-size: small;">Simulateur r&eacute;alis&eacute; par&nbsp; ihadadene.com<span style="font-family: verdana;&#10;                font-size: x-small;">&nbsp;&copy; tous droits r&eacute;serv&eacute;s</span></td>
-        </tr>
-       <tr>
-        <td>
-        <center><a href="#" onclick="window.print(); return false;">Imprimer cette page</a></td>
-        
-        </tr>
-        
-         
-        </tbody>
-        </table>
-        
-        <form name="affichage">
-    +<input type="checkbox" name="oui" onclick="controle()" />     +<input type="checkbox" name="non" onclick="controle()" />
-</form>
-         
-</center>
+                  
+                  
+                    'f6': 'Code <span style="color: red;">F6</span> : Défaut boucle capteur chauffage<br><b>Solution :</b> Vérifiez Capteur chauffage CTN2 REF S5739800<br><br><center><b>Pièces :</b><br> Caoteur chauffage REF S5739800 <br><img src="http://www.ihadadene.com/medias/images/S5739800.jpg"  style="max-width: 70%; height: auto;"><br><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+                    
+                    
+                    
+                    
+                    'f7': 'Code <span style="color: red;">F7</span> : Défaut boucle capteur sanitaire<br><b>Solution :</b> Vérifiez Capteur sanitaire REF S5704200.<br><br><center><b>Pièces :</b><br> Capteur sanitaire REF S5704200 <br><img src="https://img.webme.com/pic/s/shopping-rouiba/S54.jpg"  style="max-width: 70%; height: auto;"><br><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+                    
+                    
+                    
+                    'f8': 'Code <span style="color: red;">F8</span> : Défaut boucle capteur réservoir<br><b>Cause :</b> Humidité sur CTN3.<br><b>Solution :</b> Séchez ou remplacez la thermistance sanitaire REF 05497000.<br><b>Note :</b> Ce défaut ne bloque pas la chaudière.<br><br><center><b>Pièces :</b><br> Thermistance sanitaire REF 05497000 <br><img src="http://www.ihadadene.com/medias/images/05497000.jpg" style="max-width: 70%; height: auto;"><br><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f9': 'Code <span style="color: red;">F9</span> : Défaut boucle capteur pression eau<br><b>Cause :</b> Capteur en court-circuit ou défectueux.<br><b>Solution :</b> Vérifiez les raccordements électriques, Capteur de pression REF S5720500.<br><br><center><b>Pièces :</b><br> Capteur pression REF S5720500 <br><img src="https://img.webme.com/pic/s/shopping-rouiba/S46.jpg"  style="max-width: 70%; height: auto;"><br><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f12': 'Code <span style="color: red;">F12</span> : Défaut interface utilisateur afficheur<br><b>Cause :</b>Humidité ou afficheur défectueux, mauvaise connexion à la carte.<br><b>Solution :</b> Vérifiez Afficheur interface REF S1062000<br><br><center><b>Pièces :</b><br> Afficheur REF S1062000 <br><img src="http://www.ihadadene.com/medias/images/S1062000.jpg" style="max-width: 70%; height: auto;"><br><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span><b>Prix et Disponibilité </span></a>',
+
+                    'f13': 'Code <span style="color: red;">F13</span> : Défaut carte principale<br><b>Solution :</b> Éteignez la chaudière, attendez quelques secondes, rallumez. Si persistant, voir Carte principale REF S1047000.<br><br><center><b>Pièces :</b><br> Carte Principale REF S1047000 <br><img src="https://img.webme.com/pic/s/shopping-rouiba/S45.jpg"  style="max-width: 70%; height: auto;"><br><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f14': 'Code <span style="color: red;">F14</span> : Défaut limiteur température chauffage<br><b>Cause :</b> CTN eau chaude déclipsée, vanne 3 voies bloquée, pompe défectueuse, débit chauffage faible (radiateurs fermés).<br><b>Solution :</b> Vérifiez Capteur chauffage REF S5739800, Vanne 3 voies REF 1020800, Pompe REF 05123600.<br><br><center><b>Pièces :</b><br> Capteur chauffage REF S5739800 <br><img src="http://www.ihadadene.com/medias/images/S5739800.jpg"  style="max-width: 70%; height: auto;"></b><br> Vanne 3 voies REF S1020800 <br><img src="http://www.ihadadene.com/medias/images/S1020800.jpg"  style="max-width: 70%; height: auto;"></b><br> Pompe REF 05123600 <br><img src="http://www.ihadadene.com/medias/album/pompe-complete-reference-05123600.jpg"  style="max-width: 70%; height: auto;"></b><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f15': 'Code <span style="color: red;">F15</span> : Défaut moteur pas à pas<br><b>Cause :</b> Connexion ou moteur défectueux.<br><b>Solution :</b> Vérifiez Moteur pas à pas REF S1071400.<br><br><center><b>Pièces :</b><br>  Moteur pas à pas REF S1071400 <br><img src="http://www.ihadadene.com/medias/images/S1071400.jpg"  style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span><b>Prix et Disponibilité</span></a>',
+
+
+                    'f16': 'Code <span style="color: red;">F16</span> : Défaut fuite gaz par EVS<br><b>Solution :</b> Contrôlez l’électrovanne de sécurité gaz, Mécanisme gaz G20 REF S1071400.<center><b>Pièces :</b><br>  Moteur pas à pas REF S1071400 <br><img src="http://www.ihadadene.com/medias/images/S1071400.jpg"  style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span><b>Prix et Disponibilité </span></a>',
+
+                    'f17': 'Code <span style="color: red;">F17</span> : Tension réseau trop faible<br><b>Cause :</b> Chute de tension (<175V).<br><b>Solution :</b> Prévoir un stabilisateur de tension.',
+
+                    'f20': 'Code <span style="color: red;">F20</span> : Défaut de communication carte<br><b>Solution :</b> Peut être occasionnel. Vérifiez la compatibilité de Carte principale REF S1047000.<br><br><center><b>Pièces :</b><br> Carte Principale REF S1047000 <br><img src="https://img.webme.com/pic/s/shopping-rouiba/S45.jpg"  style="max-width: 70%; height: auto;"><br><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f00': 'Code <span style="color: red;">F00</span> : Défaut capteur T° chauffage (NTC)<br><b>Cause :</b> Capteur départ déconnecté.<br><b>Solution :</b> Vérifiez connexions, câblage, capteur (10 kΩ @25°C).<br><br><center><b>Pièces :</b><br> Capteur chauffage S5739800 <br><img src="http://www.ihadadene.com/medias/images/S5739800.jpg"  style="max-width: 70%; height: auto;"></b><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f01': '<b>Code</b> <span style="color: red;">F01</span> : Défaut capteur T° chauffage (NTC)<br><b><span style="color:#e74c3c;">Cause</span> :</b> Capteur retour déconnecté.<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez connexions, câblage, capteur (10 kΩ @25°C).<br><br><center><b>Pièces :</b><br> Capteur chauffage S5739800 <br><img src="http://www.ihadadene.com/medias/images/S5739800.jpg"  style="max-width: 70%; height: auto;"></b><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f02': '<b>Code</b> <span style="color: red;">F02</span> : Capteur de régulation déconnecté<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez connexions, câblage, capteur (10 kΩ @25°C).<br><br><center><b>Pièces :</b><br> Capteur chauffage S5739800 <br><img src="http://www.ihadadene.com/medias/images/S5739800.jpg"  style="max-width: 70%; height: auto;"></b><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f03': '<b>Code</b> <span style="color: red;">F03</span> : Capteur ballon déconnecté<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez connexions, câblage, capteur (10 kΩ @25°C).<br><br><center><b>Pièces :</b><br> Capteur chauffage S5739800 <br><img src="http://www.ihadadene.com/medias/images/S5739800.jpg"  style="max-width: 70%; height: auto;"></b><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f10': '<b>Code</b> <span style="color: red;">F10</span> : Capteur départ en court-circuit<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez connexions, câblage, capteur (10 kΩ @25°C).<br><br><center><b>Pièces :</b><br> Capteur chauffage S5739800 <br><img src="http://www.ihadadene.com/medias/images/S5739800.jpg"  style="max-width: 70%; height: auto;"></b><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f11': '<b>Code</b> <span style="color: red;">F11</span> : Capteur retour en court-circuit<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez connexions, câblage, capteur (10 kΩ @25°C).<br><br><center><b>Pièces :</b><br> Capteur chauffage S5739800 <br><img src="http://www.ihadadene.com/medias/images/S5739800.jpg"  style="max-width: 70%; height: auto;"></b><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+                   
+                    'f22': '<b>Code</b> <span style="color: red;">F22</span> : Fuite ou manque d’eau<br><b><span style="color:#e74c3c;">Cause</span> :</b> Fuite installation, soupape chauffage, vase d’expansion défectueux.<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Remplissez et purgez l’installation, vérifiez vase d’expansion et fuites.<br><center><b>Pièces :</b><br>Soupape sécurité 0020078632 <br><img src="http://www.ihadadene.com/medias/images/0020078632.JPEG" style="max-width: 70%; height: auto;"><br>Vase expansion <br><img src="http://www.ihadadene.com/medias/images/05705800.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f23': '<b>Code</b> <span style="color: red;">F23</span> : Problème circulation d’eau<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez pompe (fonctionnement, dégommage), robinets chauffage ouverts, échangeur à plaques (en sanitaire), filtre chauffage, purge circuit primaire.<br><center><b>Pièces :</b><br>Pompe <br><img src="http://www.ihadadene.com/medias/images/S1024000.jpg" style="max-width: 70%; height: auto;"><br> Echangeur sanitaire <br><img src="http://www.ihadadene.com/medias/images/S1024800.jpg" style="max-width: 70%; height: auto;"><br>Filtre chauffage S1005400 <br><img src="https://img.webme.com/pic/s/shopping-rouiba/S59.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f24': '<b>Code</b> <span style="color: red;">F24</span> : Mauvais fonctionnement pompe ou manque d’eau<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Voir F22 ou vérifiez robinets chauffage fermés, pompe déconnectée/grippée, moteur pas-à-pas mécanisme gaz (versions B).<br><center><b>Pièces :</b><br> Pompe <br><img src="http://www.ihadadene.com/medias/images/S1024000.jpg" style="max-width: 70%; height: auto;"><br> Moteur pas à pas REF S1071400 <br><img src="http://www.ihadadene.com/medias/images/S1071400.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f26': '<b>Code</b> <span style="color: red;">F26</span> : Câblage défectueux/débranché<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez mécanisme gaz et connexions.<br><center><b>Pièces :</b><br> Moteur pas à pas REF S1071400 <br><img src="http://www.ihadadene.com/medias/images/S1071400.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f27': '<b>Code</b> <span style="color: red;">F27</span> : Défaut détection flamme<br><b><span style="color:#e74c3c;">Cause</span> :</b> Détection anormale.<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez électrode de détection, carte principale, allumeur.<br><center><b>Pièces :</b><br> Carte électronique <br><img src="http://www.ihadadene.com/medias/images/0020202572.jpeg" style="max-width: 70%; height: auto;"><br> Allumeur recurent SD S5742700 <br>Electrode allumage <br><img src="http://www.ihadadene.com/medias/images/0020200638.JPG" style="max-width: 70%; height: auto;"><br> Allumeur recurent SD S5742700 <br><img src="http://www.ihadadene.com/medias/images/S5742700.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f28': '<b>Code</b> <span style="color: red;">F28</span> : Défaut d’allumage<br><b><span style="color:#e74c3c;">Cause</span> :</b> Pas d’arrivée gaz ou débit insuffisant.<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez réglage et mécanisme gaz, raccordement terre, électrode allumage/détection, allumeur, circuit gaz.<br><center><b>Pièces :</b><br>Bloc gaz NV 0020200660 <br><img src="http://www.ihadadene.com/medias/images/0020200660.jpg" style="max-width: 70%; height: auto;"><br> Electrode allumage S1003800 <br><img src="https://img.webme.com/pic/s/shopping-rouiba/S57.jpg" style="max-width: 70%; height: auto;"><br>Allumeur recurent S5742700 <br><img src="http://www.ihadadene.com/medias/images/S5742700.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+
+                    'f29': '<b>Code</b> <span style="color: red;">F29</span> : Perte de flamme en fonctionnement<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez électrode de détection, arrivée gaz.<br><center><b>Pièces :</b><br>Bloc gaz NV 0020200660 <br><img src="http://www.ihadadene.com/medias/images/0020200660.jpg" style="max-width: 70%; height: auto;"><br> Electrode allumage S1003800 <br><img src="https://img.webme.com/pic/s/shopping-rouiba/S57.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f32': '<b>Code</b> <span style="color: red;">F32</span> : Défaut air/fumées<br><b><span style="color:#e74c3c;">Cause</span> :</b> Vitesse ventilateur incorrecte.<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez arrivée air, évacuation fumées, connexions ventilateur.<br><center><b>Pièces :</b><br> Extracteur 0020213171 <br><img src="http://www.ihadadene.com/medias/images/0020213171.jpg" style="max-width: 70%; height: auto;"><br> Pressostat air SD S1008900 <br><img src="http://www.ihadadene.com/medias/images/S1008900.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f33': '<b>Code</b> <span style="color: red;">F33</span> : Défaut pressostat air<br><b><span style="color:#e74c3c;">Cause</span> :</b> Contact pressostat collé.<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez pressostat.<br><center><b>Pièces :</b><br> Pressostat air SD S1008900 <br><img src="http://www.ihadadene.com/medias/images/S1008900.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f36': '<b>Code</b> <span style="color: red;">F36</span> : Débordement fumées<br><b><span style="color:#e74c3c;">Cause</span> :</b> Mauvaise évacuation.<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez aération local, conduit fumées, thermostat sécurité SRC.<br><center><b>Pièces :</b><br> Thermostat surchauffe S1008000 <br><img src="http://www.ihadadene.com/medias/images/S1008000.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f42': '<b>Code</b> <span style="color: red;">F42</span> : Résistance codage incorrecte/absente<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez résistance codage (versions B).<br><center><b>Pièces :</b><br> Thermistance 05497000 <br><img src="http://www.ihadadene.com/medias/images/05497000.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f49': '<b>Code</b> <span style="color: red;">F49</span> : Ligne e-Bus en défaut<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez court-circuit/longueur câble e-Bus.',
+
+                    'f52': '<b>Code</b> <span style="color: red;">F52</span> : Défaut calibration capteur débit<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez connexions, remplacez capteur MFS (versions B).<br><center><b>Pièces :</b><br> Capteur chauffage SD S5739800 <br><img src="http://www.ihadadene.com/medias/images/S5739800.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f53': '<b>Code</b> <span style="color: red;">F53</span> : Pas de stabilisation flamme<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez raccordements fumées, pression gaz, capteur MFS (filtre bloqué), moteur pas-à-pas mécanisme gaz.<br><center><b>Pièces :</b><br> Bloc gaz NV 0020200660 <br><img src="http://www.ihadadene.com/medias/images/0020200660.jpg" style="max-width: 70%; height: auto;"><br> Capteur chauffage SD S5739800 <br><img src="http://www.ihadadene.com/medias/images/S5739800.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f54': '<b>Code</b> <span style="color: red;">F54</span> : Pas de débit détecté (MFS)<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez mécanisme gaz, arrivée gaz, capteur MFS.<br><center><b>Pièces :</b><br> Bloc gaz NV 0020200660 <br><img src="http://www.ihadadene.com/medias/images/0020200660.jpg" style="max-width: 70%; height: auto;"><br> Capteur chauffage SD S5739800 <br><img src="http://www.ihadadene.com/medias/images/S5739800.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f56': '<b>Code</b> <span style="color: red;">F56</span> : Écart ratio air/gaz (risque CO)<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez mécanisme gaz, capteur MFS.<br><center><b>Pièces :</b><br> Bloc gaz NV 0020200660 <br><img src="http://www.ihadadene.com/medias/images/0020200660.jpg" style="max-width: 70%; height: auto;"><br> Capteur chauffage SD S5739800 <br><img src="http://www.ihadadene.com/medias/images/S5739800.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f57': '<b>Code</b> <span style="color: red;">F57</span> : Mode dégradé (défauts F52/F53/F56)<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez mécanisme gaz, ventilateur, voir F52/F53/F56.<br><center><b>Pièces :</b><br> Extracteur 30kw NV 0020213171 <br><img src="http://www.ihadadene.com/medias/images/0020213171.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f61': '<b>Code</b> <span style="color: red;">F61</span> : Défaut commande vanne gaz<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez connexions carte principale, carte électronique.<br><center><b>Pièces :</b><br> Carte chaudiere SD 05712600 <br><img src="http://www.ihadadene.com/medias/images/05712600.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f62': '<b>Code</b> <span style="color: red;">F62</span> : Défaut fermeture vanne gaz<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez connexions carte principale, carte électronique.<br><center><b>Pièces :</b><br> Carte chaudiere SD 05712600 <br><img src="http://www.ihadadene.com/medias/images/05712600.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f63': '<b>Code</b> <span style="color: red;">F63</span> : Défaut mémoire carte principale<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez carte, reset appareil.<br><center><b>Pièces :</b><br> Carte chaudiere SD 05712600 <br><img src="http://www.ihadadene.com/medias/images/05712600.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f64': '<b>Code</b> <span style="color: red;">F64</span> : Fluctuation rapide capteur départ/retour<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez connexions carte principale, capteurs.<br><center><b>Pièces :</b><br> Carte chaudiere SD 05712600 <br><img src="http://www.ihadadene.com/medias/images/05712600.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f65': '<b>Code</b> <span style="color: red;">F65</span> : Température carte principale trop élevée<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez ventilation carte, reset appareil.<br><center><b>Pièces :</b><br> Carte chaudiere SD 05712600 <br><img src="http://www.ihadadene.com/medias/images/05712600.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f67': '<b>Code</b> <span style="color: red;">F67</span> : Défaut signal flamme carte principale<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez connexions carte, électrode détection.<br><center><b>Pièces :</b><br> Carte chaudiere SD 05712600 <br><img src="http://www.ihadadene.com/medias/images/05712600.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f68': '<b>Code</b> <span style="color: red;">F68</span> : Fluctuation signal flamme<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Voir F28, vérifier compatibilité interface/carte.<br><center><b>Pièces :</b><br> Carte chaudiere SD 05712600 <br><img src="http://www.ihadadene.com/medias/images/05712600.jpg" style="max-width: 70%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f70': '<b>Code</b> <span style="color: red;">F70</span> : Mauvais <b>Code</b> produit<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez <b>Code</b> produit, référence carte.<br><center><b>Pièces :</b><br> Ref. carte Saunier Duval<br><img src="http://www.ihadadene.com/medias/images/carte.jpg" style="max-width: 90%; height: auto;"><br><a href="tel:0550081152" style="text-decoration: none;"><span style="display: inline-flex; align-items: center; background-color: #075e54; color: white; padding: 10px 15px; border-radius: 5px;"><span style="margin-right: 8px;">☎️</span> <b>Prix et Disponibilité </span></a>',
+
+                    'f71': '<b>Code</b> <span style="color: red;">F71</span> : Variation anormale T° capteur départ<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez connexions, capteur.',
+
+                    'f72': '<b>Code</b> <span style="color: red;">F72</span> : Incohérence T° départ/retour<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez connexions, capteurs défectueux.',
+                    'f73': '<b>Code</b> <span style="color: red;">F73</span> : Capteur pression court-circuit/déconnecté<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez connexions, capteur.',
+                    'f74': '<b>Code</b> <span style="color: red;">F74</span> : Capteur pression défaut électrique<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez connexions, capteur.',
+                    'f76': '<b>Code</b> <span style="color: red;">F76</span> : Défaut fusible thermique<br><b><span style="color:#e74c3c;">Cause</span> :</b> Fusible déconnecté/défectueux.<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez connexions, fusible.',
+                    'f77': '<b>Code</b> <span style="color: red;">F77</span> : Défaut accessoires externes<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez connexions vanne gaz externe, pompe condensats.',
+                    'f79': '<b>Code</b> <span style="color: red;">F79</span> : Défaut capteur T° ballon<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez connexions, capteur.',
+                    'f81': '<b>Code</b> <span style="color: red;">F81</span> : Surchauffe circuit sanitaire<br><b><span style="color:#e74c3c;">Cause</span> :</b> Capteur T° mal clipsé, pompe sanitaire HS, clapet anti-retour bloqué, échangeur bouché.<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez composants, circuit primaire.',
+                    'f83': '<b>Code</b> <span style="color: red;">F83</span> : Circuit mal dégazé<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Voir F22, purger circuit.',
+                    'f84': '<b>Code</b> <span style="color: red;">F84</span> : Incohérence capteurs départ/retour<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez connexions, capteurs défectueux.',
+                    'f85': '<b>Code</b> <span style="color: red;">F85</span> : Capteurs départ/retour sur même tubulure<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez connexions capteurs.',
+                    'f86': '<b>Code</b> <span style="color: red;">F86</span> : Surchauffe plancher chauffant<br><b><span style="font-weight: 500; color: #075e54;">Solution :</span></b> Vérifiez T° circuit, sécurité surchauffe, thermostat, pontet connecteur FLOOR.'
+                },
+                'chappee': {
+                    'e10': '<b>Code</b> <span style="color: red;">E10</span> : Défaut Capteur sonde extérieure .<br><b><span style="color:#e74c3c;">Cause</span></b> : en panne.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez ou remplacez le capteur sonde.',
+                    'e20': '<b>Code</b> <span style="color: red;">E20</span> : Capteur NTC de refoulement en panne.<br><b><span style="color:#e74c3c;">Cause</span></b> : en panne.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Nettoyer ou changer le capteur.',
+                    'e28': '<b>Code</b> <span style="color: red;">E28</span> : Capteur NTC de fumées en panne.<br><b><span style="color:#e74c3c;">Cause</span></b> : en panne.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Nettoyer ou changer le capteur.',
+                    'e50': '<b>Code</b> <span style="color: red;">E50</span> : Capteur NTC sanitaire en panne.<br><b><span style="color:#e74c3c;">Cause</span></b> : en panne.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Nettoyer ou changer le capteur.',
+                    'e110': '<b>Code</b> <span style="color: red;">E110</span> : Déclenchement du thermostat de sécurité.<br><b><span style="color:#e74c3c;">Cause</span></b> : surchauffe ou anomalie.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Mettre le sélecteur sur “R” pendant au moins 1 seconde. Au cas où ce dispositif se déclencherait souvent, faire appel au centre de service après-vente agréé.',
+                    'e119': '<b>Code</b> <span style="color: red;">E119</span> : Absence dʼautorisation du pressostat hydraulique.<br><b><span style="color:#e74c3c;">Cause</span></b> : pression incorrecte.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier si la pression du circuit correspond à la valeur prescrite. Voir chapitre remplissage du circuit. Si lʼanomalie persiste, faire appel au centre service après-vente agréé.',
+                    'e125': '<b>Code</b> <span style="color: red;">E125</span> : Intervention de sécurité (Pompe bloquée).<br><b><span style="color:#e74c3c;">Cause</span></b> : pompe en panne.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Débloquer la pompe, voir SAV.',
+                    'e130': '<b>Code</b> <span style="color: red;">E130</span> : Intervention du capteur des fumées pour sur température.<br><b><span style="color:#e74c3c;">Cause</span></b> : surchauffe.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Mettre le sélecteur sur “R” pendant au moins 1 seconde. Au cas où ce dispositif se déclencherait souvent, faire appel au centre de service après-vente agréé.',
+                    'e133': '<b>Code</b> <span style="color: red;">E133</span> : Absence de gaz.<br><b><span style="color:#e74c3c;">Cause</span></b> : alimentation en gaz interrompue.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Mettre le sélecteur sur “R” pendant au moins 1 seconde. Si lʼanomalie persiste, faire appel au centre de service après-vente agréé.',
+                    'e151': '<b>Code</b> <span style="color: red;">E151</span> : Erreur interne carte de la chaudière.<br><b><span style="color:#e74c3c;">Cause</span></b> : problème électronique.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Faire appel au centre de service après-vente agréé. Vérifier la position des électrodes dʼallumage.',
+                    'e160': '<b>Code</b> <span style="color: red;">E160</span> : Seuil de vitesse de ventilateur non atteint.<br><b><span style="color:#e74c3c;">Cause</span></b> : problème de ventilation.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Faire appel au centre de service après-vente agréé.'
+                },
+                'riello': {
+                    'a02': '<b>Code</b> <span style="color: red;">A02</span> : Alarme de thermostat limite.<br><b><span style="color:#e74c3c;">Cause</span></b> : Défaut technique.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Placer le sélecteur de fonction sur OFF, attendre 6 secondes, puis positionner sur radiateur. Si les tentatives de déblocage ne réactivent pas la chaudière, demander l\'intervention du Service après-vente.',
+                    'a01': '<b>Code</b> <span style="color: red;">A01</span> : Alarme de verrouillage du module ACF - Panne électrique.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de raccordement électrique, défaut de l\'électrode de détection de flamme ou panne de la carte électronique.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier le raccordement électrique (inversion de la prise si nécessaire) et s\'assurer que la polarité phase/neutre est correcte. Vérifier la cheminée et la nettoyer si besoin. Contrôler la disponibilité et la pression du gaz à la sortie de la vanne (intervention d\'un spécialiste si ajustement nécessaire). Vérifier les contacts et l\'isolation de l\'électrode de détection de flamme, ainsi que son état (nettoyer ou remplacer si défectueuse). Si le problème persiste, faire intervenir le Service après-vente pour diagnostiquer une possible panne de la carte électronique.',
+                    'a03': '<b>Code</b> <span style="color: red;">A03</span> : Alarme d\'interrupteur de pression d\'air (modèles ventouse) ou thermostat des fumées (modèles cheminée).<br><b><span style="color:#e74c3c;">Cause</span></b> : Défaut de pression d\'air ou problème lié aux fumées.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Placer le sélecteur de fonction sur OFF, attendre 6 secondes, puis positionner sur radiateur. Si les tentatives de déblocage ne réactivent pas la chaudière, demander l\'intervention du Service après-vente.',
+                    'a04': '<b>Code</b> <span style="color: red;">A04</span> : Alarme pressostat H2O.<br><b><span style="color:#e74c3c;">Cause</span></b> : Pression d\'eau insuffisante.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier la pression indiquée par l\'indicateur du niveau d\'eau. Si elle est inférieure à 0,3 bar, placer le sélecteur de fonction sur OFF, puis régler le bouchon de remplissage jusqu\'à ce que la pression atteigne une valeur entre 1 et 1,5 bar. Repositionner ensuite le sélecteur sur la position souhaitée (ex. hiver). Si les chutes de pression sont fréquentes, demander l\'intervention du Service Technique après-vente.',
+                    'a06': '<b>Code</b> <span style="color: red;">A06</span> : Anomalie sanitaire NTC.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème avec la sonde NTC sanitaire.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier la sonde NTC sanitaire. Faire intervenir le Service après-vente si nécessaire.',
+                    'a07': '<b>Code</b> <span style="color: red;">A07</span> : Anomalie chauffage NTC.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème avec la sonde NTC de chauffage.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier la sonde NTC de chauffage. Faire intervenir le Service après-vente si nécessaire.',
+                    'a11': '<b>Code</b> <span style="color: red;">A11</span> : Flamme parasite.<br><b><span style="color:#e74c3c;">Cause</span></b> : Détection anormale d\'une flamme.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Faire intervenir le Service après-vente pour un diagnostic approfondi.',
+                    'adj': '<b>Code</b> <span style="color: red;">ADJ</span> : Réglage électrique du chauffage minimum et maximum.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Ajuster les paramètres électriques selon les besoins. Consulter un technicien si nécessaire.',
+                    'clignotant_88': '<b>Code</b> <span style="color: red;">Clignotant 88*</span> : Transitoire en attente d\'allumage.<br><b><span style="color:#e74c3c;">Cause</span></b> : Délai avant l\'allumage.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Attendre la fin du transitoire. Si le problème persiste, vérifier l\'interrupteur de pression (modèles CSI ventouse) ou le thermostat des fumées (modèles CAI cheminée) et faire intervenir le Service après-vente si nécessaire.'
+                },
+                'beretta': {
+                    'a02': '<b>Code</b> <span style="color: red;">A02</span> : Alarme de thermostat limite.<br><b><span style="color:#e74c3c;">Cause</span></b> : Défaut technique.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Placer le sélecteur de fonction sur OFF, attendre 6 secondes, puis positionner sur radiateur. Si les tentatives de déblocage ne réactivent pas la chaudière, demander l\'intervention du Service après-vente.',
+                    'a01': '<b>Code</b> <span style="color: red;">A01</span> : Alarme de verrouillage du module ACF - Panne électrique.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de raccordement électrique, défaut de l\'électrode de détection de flamme ou panne de la carte électronique.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier le raccordement électrique (inversion de la prise si nécessaire) et s\'assurer que la polarité phase/neutre est correcte. Vérifier la cheminée et la nettoyer si besoin. Contrôler la disponibilité et la pression du gaz à la sortie de la vanne (intervention d\'un spécialiste si ajustement nécessaire). Vérifier les contacts et l\'isolation de l\'électrode de détection de flamme, ainsi que son état (nettoyer ou remplacer si défectueuse). Si le problème persiste, faire intervenir le Service après-vente pour diagnostiquer une possible panne de la carte électronique.',
+                    'a03': '<b>Code</b> <span style="color: red;">A03</span> : Alarme d\'interrupteur de pression d\'air (modèles ventouse) ou thermostat des fumées (modèles cheminée).<br><b><span style="color:#e74c3c;">Cause</span></b> : Défaut de pression d\'air ou problème lié aux fumées.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Placer le sélecteur de fonction sur OFF, attendre 6 secondes, puis positionner sur radiateur. Si les tentatives de déblocage ne réactivent pas la chaudière, demander l\'intervention du Service après-vente.',
+                    'a04': '<b>Code</b> <span style="color: red;">A04</span> : Alarme pressostat H2O.<br><b><span style="color:#e74c3c;">Cause</span></b> : Pression d\'eau insuffisante.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier la pression indiquée par l\'indicateur du niveau d\'eau. Si elle est inférieure à 0,3 bar, placer le sélecteur de fonction sur OFF, puis régler le bouchon de remplissage jusqu\'à ce que la pression atteigne une valeur entre 1 et 1,5 bar. Repositionner ensuite le sélecteur sur la position souhaitée (ex. hiver). Si les chutes de pression sont fréquentes, demander l\'intervention du Service Technique après-vente.',
+                    'a06': '<b>Code</b> <span style="color: red;">A06</span> : Anomalie sanitaire NTC.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème avec la sonde NTC sanitaire.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier la sonde NTC sanitaire. Faire intervenir le Service après-vente si nécessaire.',
+                    'a07': '<b>Code</b> <span style="color: red;">A07</span> : Anomalie chauffage NTC.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème avec la sonde NTC de chauffage.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier la sonde NTC de chauffage. Faire intervenir le Service après-vente si nécessaire.',
+                    'a11': '<b>Code</b> <span style="color: red;">A11</span> : Flamme parasite.<br><b><span style="color:#e74c3c;">Cause</span></b> : Détection anormale d\'une flamme.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Faire intervenir le Service après-vente pour un diagnostic approfondi.',
+                    'adj': '<b>Code</b> <span style="color: red;">ADJ</span> : Réglage électrique du chauffage minimum et maximum.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Ajuster les paramètres électriques selon les besoins. Consulter un technicien si nécessaire.',
+                    '88': '<b>Code</b> <span style="color: red;">Clignotant 88*</span> : Transitoire en attente allumage.<br><b><span style="color:#e74c3c;">Cause</span></b> : Délai avant allumage.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Attendre la fin du transitoire. Si le problème persiste, vérifier interrupteur de pression (modèles CSI ventouse) ou le thermostat des fumées (modèles CAI cheminée) et faire intervenir le Service après-vente si nécessaire.'
+                },
+                'immergas': {
+                    '11': '<b>Code</b> <span style="color: red;">11</span> : Défaut circulateur.<br><b><span style="color:#e74c3c;">Cause</span></b> : Pompe bloquée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Débloquez ou remplacez la pompe.',
+                    '10': '<b>Code</b> <span style="color: red;">10</span> : Pression basse.<br><b><span style="color:#e74c3c;">Cause</span></b> : Manque d’eau.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Remplissez à 1-2 bars.',
+                    '05': '<b>Code</b> <span style="color: red;">05</span> : Défaut sonde chauffage.<br><b><span style="color:#e74c3c;">Cause</span></b> : Sonde HS.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Remplacez la sonde.',
+                    '02': '<b>Code</b> <span style="color: red;">02</span> : Surchauffe.<br><b><span style="color:#e74c3c;">Cause</span></b> : Circulation bloquée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez la pompe, purgez.',
+                    '01': '<b>Code</b> <span style="color: red;">01</span> : Défaut d’allumage.<br><b><span style="color:#e74c3c;">Cause</span></b> : Pas de gaz ou électrode HS.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez le gaz, nettoyez l’électrode.'
+                },
+                'motan': {
+                    'e05': '<b>Code</b> <span style="color: red;">E05</span> : Défaut sonde NTC.<br><b><span style="color:#e74c3c;">Cause</span></b> : Sonde HS.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Remplacez la sonde.',
+                    'e04': '<b>Code</b> <span style="color: red;">E04</span> : Défaut ventilateur.<br><b><span style="color:#e74c3c;">Cause</span></b> : Ventilateur HS.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Remplacez le ventilateur.',
+                    'e03': '<b>Code</b> <span style="color: red;">E03</span> : Surchauffe.<br><b><span style="color:#e74c3c;">Cause</span></b> : Pompe bloquée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Débloquez la pompe, purgez.',
+                    'e02': '<b>Code</b> <span style="color: red;">E02</span> : Pression basse.<br><b><span style="color:#e74c3c;">Cause</span></b> : Fuite ou manque d’eau.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Remplissez à 1-2 bars.',
+                    'e01': '<b>Code</b> <span style="color: red;">E01</span> : Défaut d’allumage.<br><b><span style="color:#e74c3c;">Cause</span></b> : Pas de gaz ou allumeur HS.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez le gaz, remplacez l’allumeur.',
+                    'e2': '<b>Code</b> <span style="color: red;">E2</span> : Pression basse.<br><b><span style="color:#e74c3c;">Cause</span></b> : Fuite ou manque d’eau.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Remplissez à 1-2 bars.',
+                    'e1': '<b>Code</b> <span style="color: red;">E1</span> : Défaut d’allumage.<br><b><span style="color:#e74c3c;">Cause</span></b> : Pas de gaz ou allumeur HS.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez le gaz, remplacez l’allumeur.',
+                    'eu': '<b>Code</b> <span style="color: red;">Eu</span> : Défaut synchronisation de la carte électronique.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de connexion ou carte défectueuse.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Débranchez et rebranchez après 5 secondes.',
+                    'en': '<b>Code</b> <span style="color: red;">En</span> : Problème alimentation gaz.<br><b><span style="color:#e74c3c;">Cause</span></b> : Arrivée de gaz insuffisante.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez l’alimentation gaz ou le bloc gaz.',
+                    'e0': '<b>Code</b> <span style="color: red;">E0</span> : Problème d’alimentation électrique.<br><b><span style="color:#e74c3c;">Cause</span></b> : Mauvais branchement.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez le branchement électrique.',
+                    'e3': '<b>Code</b> <span style="color: red;">E3</span> : Problèmes avec CTN de température sur le circuit chauffage.<br><b><span style="color:#e74c3c;">Cause</span></b> : Capteur défectueux.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez la CTN et son câblage.',
+                    'e4': '<b>Code</b> <span style="color: red;">E4</span> : Problèmes avec capteur de température sur le circuit d’eau chaude.<br><b><span style="color:#e74c3c;">Cause</span></b> : Capteur défectueux.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez la CTN eau sanitaire.',
+                    'e5': '<b>Code</b> <span style="color: red;">E5</span> : Problèmes avec évacuation des gaz brûlés.<br><b><span style="color:#e74c3c;">Cause</span></b> : Conduit obstrué ou extracteur défectueux.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez le conduit cheminée ou son thermostat température, ainsi que l’extracteur d’air.',
+                    'e6': '<b>Code</b> <span style="color: red;">E6</span> : Problème réseau alimentation électrique.<br><b><span style="color:#e74c3c;">Cause</span></b> : Instabilité électrique.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez le raccordement électrique.',
+                    'e7': '<b>Code</b> <span style="color: red;">E7</span> : Flamme parasite.<br><b><span style="color:#e74c3c;">Cause</span></b> : Détection anormale de flamme.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Remettre à zéro en appuyant sur RESET.',
+                    'e8_maxoptimus': '<b>Code</b> <span style="color: red;">E8 MAXOPTIMUS</span> : La température de l’échangeur de chaleur dépasse 95°C.<br><b><span style="color:#e74c3c;">Cause</span></b> : Surchauffe.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez la CTN chauffage.',
+                    'e8_plusmt': '<b>Code</b> <span style="color: red;">E8 PLUS MT</span> : Erreur de la carte.<br><b><span style="color:#e74c3c;">Cause</span></b> : Dysfonctionnement électronique.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Coupez puis remettez la chaudière en marche, si l’erreur persiste, vérifiez la carte.',
+                    'e9': '<b>Code</b> <span style="color: red;">E9</span> : Après 5 tentatives de réarmement de la chaudière.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème persistant.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Coupez puis remettez la chaudière en marche, l’erreur devrait disparaître.',
+                    'e10': '<b>Code</b> <span style="color: red;">E10</span> : La pression de l’eau du système est incorrecte (moins de 0,8 bar).<br><b><span style="color:#e74c3c;">Cause</span></b> : Pression trop basse.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Complétez l’installation d’eau jusqu’à 1,5 bar et surveillez la pression pendant quelques jours. Vérifiez les fuites, contactez le SAV si nécessaire.',
+                    'e11': '<b>Code</b> <span style="color: red;">E11</span> : Augmentation rapide de la température de l’eau de sortie.<br><b><span style="color:#e74c3c;">Cause</span></b> : Surchauffe soudaine.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Auto-reconfiguration à la disparition de la <span style="color:#e74c3c;">Cause</span>.',
+                    'e13': '<b>Code</b> <span style="color: red;">E13</span> : Différence de température aller/retour trop élevée.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de circulation.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Auto-reconfiguration à la disparition de la <span style="color:#e74c3c;">Cause</span>.',
+                    'e15': '<b>Code</b> <span style="color: red;">E15</span> : Aucun signal de débit d’eau malgré activation de la pompe.<br><b><span style="color:#e74c3c;">Cause</span></b> : Pompe ou capteur défectueux.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET.',
+                    'e20': '<b>Code</b> <span style="color: red;">E20</span> : Allumage échoué après trois essais.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème d’allumage.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET.',
+                    'e22': '<b>Code</b> <span style="color: red;">E22</span> : Défaillance en phase de détection de la flamme.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de détection.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET.',
+                    'e23': '<b>Code</b> <span style="color: red;">E23</span> : Défaillance en phase de détection de la flamme.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de détection.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET.',
+                    'e25': '<b>Code</b> <span style="color: red;">E25</span> : BCU défectueux.<br><b><span style="color:#e74c3c;">Cause</span></b> : Unité de contrôle brûleur hors service.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET.',
+                    'e30': '<b>Code</b> <span style="color: red;">E30</span> : Capteur des gaz brûlés défectueux.<br><b><span style="color:#e74c3c;">Cause</span></b> : Capteur HS.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET.',
+                    'e31': '<b>Code</b> <span style="color: red;">E31</span> : Capteur défectueux du tube aller de chauffage.<br><b><span style="color:#e74c3c;">Cause</span></b> : Capteur HS.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET, à la disparition de la <span style="color:#e74c3c;">Cause</span>.',
+                    'e32': '<b>Code</b> <span style="color: red;">E32</span> : Capteur défectueux du tube retour de chauffage.<br><b><span style="color:#e74c3c;">Cause</span></b> : Capteur HS.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET, à la disparition de la <span style="color:#e74c3c;">Cause</span>.',
+                    'e35': '<b>Code</b> <span style="color: red;">E35</span> : Capteur de température extérieure défectueux.<br><b><span style="color:#e74c3c;">Cause</span></b> : Capteur HS.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET, à la disparition de la <span style="color:#e74c3c;">Cause</span>.',
+                    'e36': '<b>Code</b> <span style="color: red;">E36</span> : Capteur de température ECD défectueux.<br><b><span style="color:#e74c3c;">Cause</span></b> : Capteur HS.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET, à la disparition de la <span style="color:#e74c3c;">Cause</span>.',
+                    'e37': '<b>Code</b> <span style="color: red;">E37</span> : Capteur 1 de température du chauffe-eau défectueux.<br><b><span style="color:#e74c3c;">Cause</span></b> : Capteur HS.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET, à la disparition de la <span style="color:#e74c3c;">Cause</span>.',
+                    'e38': '<b>Code</b> <span style="color: red;">E38</span> : Capteur 2 de température du chauffe-eau défectueux.<br><b><span style="color:#e74c3c;">Cause</span></b> : Capteur HS.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET, à la disparition de la <span style="color:#e74c3c;">Cause</span>.',
+                    'e40': '<b>Code</b> <span style="color: red;">E40</span> : Température des gaz de combustion trop élevée.<br><b><span style="color:#e74c3c;">Cause</span></b> : Surchauffe.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET, à la disparition de la <span style="color:#e74c3c;">Cause</span>.',
+                    'e41': '<b>Code</b> <span style="color: red;">E41</span> : Température du caloporteur par tube aller d’EC trop élevée ou trop basse.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de régulation.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET, à la disparition de la <span style="color:#e74c3c;">Cause</span>.',
+                    'e42': '<b>Code</b> <span style="color: red;">E42</span> : Température du caloporteur par tube retour d’EC trop élevée ou trop basse.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de régulation.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET, à la disparition de la <span style="color:#e74c3c;">Cause</span>.',
+                    'e45': '<b>Code</b> <span style="color: red;">E45</span> : Température extérieure trop élevée.<br><b><span style="color:#e74c3c;">Cause</span></b> : Conditions anormales.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET, à la disparition de la <span style="color:#e74c3c;">Cause</span>.',
+                    'e46': '<b>Code</b> <span style="color: red;">E46</span> : Température de l’ECD trop réduite ou élevée.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de régulation.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET, à la disparition de la <span style="color:#e74c3c;">Cause</span>.',
+                    'e47': '<b>Code</b> <span style="color: red;">E47</span> : Température indiquée par le capteur 1 du chauffe-eau trop réduite ou élevée.<br><b><span style="color:#e74c3c;">Cause</span></b> : Capteur ou régulation défectueux.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET, à la disparition de la <span style="color:#e74c3c;">Cause</span>.',
+                    'e48': '<b>Code</b> <span style="color: red;">E48</span> : Température indiquée par le capteur 2 du chauffe-eau trop réduite ou élevée.<br><b><span style="color:#e74c3c;">Cause</span></b> : Capteur ou régulation défectueux.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET, à la disparition de la <span style="color:#e74c3c;">Cause</span>.',
+                    'e50': '<b>Code</b> <span style="color: red;">E50</span> : Défaillance dans l’alimentation du ventilateur à 230VAC.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème électrique.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET.',
+                    'e51': '<b>Code</b> <span style="color: red;">E51</span> : Erreur à la commande ou à l’état du ventilateur.<br><b><span style="color:#e74c3c;">Cause</span></b> : Ventilateur défectueux.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET.',
+                    'e52': '<b>Code</b> <span style="color: red;">E52</span> : Fonctionnement inadéquat du ventilateur (ex. rotation).<br><b><span style="color:#e74c3c;">Cause</span></b> : Ventilateur défectueux.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Reconfigurable manuellement par la touche RESET.'
+                },
+                'facofri': {
+                    'e0': '<b>Code</b> <span style="color: red;">E0</span> : Absence de communication chrono thermostat ECHOCRONO.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de transmission.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez la ligne de transmission, remplacez l\'ECHOCRONO si nécessaire.',
+                    'e1': '<b>Code</b> <span style="color: red;">E1</span> : Absence d’allumage (blocage chaudière).<br><b><span style="color:#e74c3c;">Cause</span></b> : Pas de gaz ou problème d’allumage.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez la présence du gaz et la pression, contrôlez l’électrode d’allumage, vérifiez le câble électrique et l’allumeur.',
+                    'e2': '<b>Code</b> <span style="color: red;">E2</span> : Anomalie pressostat fumée (blocage chaudière).<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème d’évacuation des fumées.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôlez le tirage de la cheminée et le conduit de fumée, vérifiez le fonctionnement du ventilateur ventouse.',
+                    'e3': '<b>Code</b> <span style="color: red;">E3</span> : Anomalie sonde température chauffage (blocage chaudière).<br><b><span style="color:#e74c3c;">Cause</span></b> : Sonde défectueuse.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez ou remplacez le capteur chauffage.',
+                    'e4': '<b>Code</b> <span style="color: red;">E4</span> : Anomalie sonde température sanitaire (distribution sanitaire en mode provisoire).<br><b><span style="color:#e74c3c;">Cause</span></b> : Sonde défectueuse.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez ou remplacez le capteur sanitaire.',
+                    'e5': '<b>Code</b> <span style="color: red;">E5</span> : Anomalie modulateur (blocage chaudière).<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème électrique ou vanne gaz HS.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez le branchement électrique du modulateur, remplacez la vanne gaz si nécessaire.',
+                    'e6': '<b>Code</b> <span style="color: red;">E6</span> : Température élevée sonde chauffage (chaudière en veille, eau chaude sanitaire normale).<br><b><span style="color:#e74c3c;">Cause</span></b> : Surchauffe détectée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Attendez le déblocage automatique, contrôlez la pression de l’installation.',
+                    'e7': '<b>Code</b> <span style="color: red;">E7</span> : Panne pressostat fumée (blocage chaudière).<br><b><span style="color:#e74c3c;">Cause</span></b> : Pressostat défectueux.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôlez la connexion ou remplacez le pressostat de fumée.',
+                    'e8': '<b>Code</b> <span style="color: red;">E8</span> : Pression d’eau circuit chauffage trop basse (blocage chaudière).<br><b><span style="color:#e74c3c;">Cause</span></b> : Manque d’eau.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôlez et ajustez la pression du circuit chauffage.',
+                    'e9': '<b>Code</b> <span style="color: red;">E9</span> : Température circuit chauffage trop élevée (blocage chaudière).<br><b><span style="color:#e74c3c;">Cause</span></b> : Surchauffe ou mauvaise circulation.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Dégazez et purgez le circuit, contrôlez la pression et la circulation, vérifiez la régulation combustion.',
+                    'e10': '<b>Code</b> <span style="color: red;">E10</span> : Pression d’eau circuit chauffage trop élevée (> 2.7 bars, blocage chaudière).<br><b><span style="color:#e74c3c;">Cause</span></b> : Excès de pression.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez le fonctionnement du circulateur/pompe.',
+                    'e12': '<b>Code</b> <span style="color: red;">E12</span> : Réinitialisation commande à distance épuisée (blocage chaudière).<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème système.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Réinitialisez le système, déconnectez l’alimentation.',
+                    'e13': '<b>Code</b> <span style="color: red;">E13</span> : Erreur EEPROM (blocage chaudière).<br><b><span style="color:#e74c3c;">Cause</span></b> : Mémoire défectueuse.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Réinitialisez le système, déconnectez l’alimentation, remplacez la carte si nécessaire.',
+                    'e15': '<b>Code</b> <span style="color: red;">E15</span> : Anomalie pressostat fumée (blocage chaudière).<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème d’évacuation.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôlez le tirage de la cheminée et le conduit de fumée, vérifiez le ventilateur ventouse.',
+                    'e23': '<b>Code</b> <span style="color: red;">E23</span> : Anomalie sonde extérieure (reprise sans sonde extérieure).<br><b><span style="color:#e74c3c;">Cause</span></b> : Sonde HS ou mal positionnée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôlez le positionnement, remplacez la sonde extérieure.',
+                    'e25': '<b>Code</b> <span style="color: red;">E25</span> : Température eau circuit chauffage trop basse, risque de congélation (blocage chaudière).<br><b><span style="color:#e74c3c;">Cause</span></b> : Température trop basse.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Attendez le dégivrage et le déblocage automatique.',
+                    'e26': '<b>Code</b> <span style="color: red;">E26</span> : Anomalie carte électrovanne (blocage chaudière).<br><b><span style="color:#e74c3c;">Cause</span></b> : Carte défectueuse.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Remplacez la carte électrovanne.',
+                    'e28': '<b>Code</b> <span style="color: red;">E28</span> : Sonde chauffe-eau endommagée (blocage chaudière).<br><b><span style="color:#e74c3c;">Cause</span></b> : Sonde HS.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Remplacez la sonde.',
+                    'e99': '<b>Code</b> <span style="color: red;">E99</span> : Erreur de configuration des paramètres (blocage chaudière).<br><b><span style="color:#e74c3c;">Cause</span></b> : Mauvaise configuration.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez la configuration des paramètres (par un professionnel).'
+                },
+                'energical': {
+                    'e0': '<b>Code</b> <span style="color: red;">E0</span> : Problème d’alimentation électrique.<br><b><span style="color:#e74c3c;">Cause</span></b> : Défaillance de l’alimentation ou fusible endommagé.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier l’alimentation électrique de la chaudière et le fusible.',
+                    'e1': '<b>Code</b> <span style="color: red;">E1</span> : Manque d’eau dans le circuit du système.<br><b><span style="color:#e74c3c;">Cause</span></b> : Pression d’eau insuffisante ou fuite.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier la pression de l’eau (entre 1 et 1,5 bar), purger l’air du circuit si nécessaire, et inspecter le système pour détecter des fuites.',
+                    'e2': '<b>Code</b> <span style="color: red;">E2</span> : Manque de flamme.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème d’alimentation en gaz ou électrode défectueuse.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier l’alimentation en gaz, nettoyer et repositionner l’électrode d’allumage, et inspecter le brûleur pour s’assurer qu’il n’est pas obstrué.',
+                    'e3': '<b>Code</b> <span style="color: red;">E3</span> : Problèmes avec la sonde de température (CTN) sur le circuit de chauffage.<br><b><span style="color:#e74c3c;">Cause</span></b> : Sonde mal connectée ou défectueuse.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier la connexion de la sonde et la remplacer si nécessaire.',
+                    'e4': '<b>Code</b> <span style="color: red;">E4</span> : Défaut de détection de flamme.<br><b><span style="color:#e74c3c;">Cause</span></b> : Électrode de détection ou câblage défectueux.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier l’électrode de détection de flamme et contrôler le câblage ainsi que les connexions.',
+                    'eu': '<b>Code</b> <span style="color: red;">Eu</span> : Défaut de synchronisation de la carte électronique.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème interne à la carte.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Redémarrer la chaudière ; si le problème persiste, contacter un technicien.',
+                    'en': '<b>Code</b> <span style="color: red;">En</span> : Problème d’alimentation en gaz.<br><b><span style="color:#e74c3c;">Cause</span></b> : Gaz non disponible ou vanne fermée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier l’alimentation en gaz et s’assurer que la vanne de gaz est ouverte.'
+                },
+                'viesmann': {
+                    '30': '<b>Code</b> <span style="color: red;">30</span> : Court-circuit sonde de température de chaudière.<br><b><span style="color:#e74c3c;">Cause</span></b> : Sonde défectueuse ou câblage en court-circuit.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôler la sonde de température de chaudière.',
+                    '38': '<b>Code</b> <span style="color: red;">38</span> : Coupure sonde de température de chaudière.<br><b><span style="color:#e74c3c;">Cause</span></b> : Sonde déconnectée ou endommagée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôler la sonde de température de chaudière.',
+                    '50': '<b>Code</b> <span style="color: red;">50</span> : Court-circuit sonde de température ECS.<br><b><span style="color:#e74c3c;">Cause</span></b> : Sonde défectueuse ou câblage en court-circuit.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôler la sonde de température eau chaude sanitaire.',
+                    '58': '<b>Code</b> <span style="color: red;">58</span> : Coupure sonde de température ECS.<br><b><span style="color:#e74c3c;">Cause</span></b> : Sonde déconnectée ou endommagée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôler la sonde de température eau chaude sanitaire.',
+                    'b1': '<b>Code</b> <span style="color: red;">b1</span> : Défaut de communication module de commande.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de connexion ou module défectueux.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôler les raccordements, remplacer le module de commande si nécessaire.',
+                    'b4': '<b>Code</b> <span style="color: red;">b4</span> : Défaut interne.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème électronique interne.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôler la platine électronique.',
+                    'b5': '<b>Code</b> <span style="color: red;">b5</span> : Défaut interne.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème électronique interne.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôler la platine électronique.',
+                    'b6': '<b>Code</b> <span style="color: red;">b6</span> : Mauvaise reconnaissance du matériel.<br><b><span style="color:#e74c3c;">Cause</span></b> : Erreur de détection du matériel.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôler la platine de base.',
+                    'b7': '<b>Code</b> <span style="color: red;">b7</span> : Défaut fiche de codage de la chaudière.<br><b><span style="color:#e74c3c;">Cause</span></b> : Fiche absente ou défectueuse.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Mettre la fiche de codage de la chaudière en place, la remplacer si elle est défectueuse.',
+                    'b9': '<b>Code</b> <span style="color: red;">b9</span> : Défaut interne.<br><b><span style="color:#e74c3c;">Cause</span></b> : Erreur de configuration ou de données.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Acquitter le défaut, recommencer l\'entrée des données.',
+                    'd1': '<b>Code</b> <span style="color: red;">d1</span> : Brûleur en défaut.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème au niveau du brûleur.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôler le brûleur.'
+                },
+                'sime': {
+    'al01': '<b>Code</b> <span style="color: red;">AL01</span> : Thermostat des fumées.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de connexion ou thermostat défectueux.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier le raccordement du thermostat ou le remplacer.',
+    'al02': '<b>Code</b> <span style="color: red;">AL02</span> : Baisse de la pression d\'eau dans l\'installation.<br><b><span style="color:#e74c3c;">Cause</span></b> : Pression insuffisante.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Effectuer le remplissage, contrôler les éventuelles fuites sur l\'installation.',
+    'al03': '<b>Code</b> <span style="color: red;">AL03</span> : Haute pression de l\'eau dans l\'installation.<br><b><span style="color:#e74c3c;">Cause</span></b> : Pression excessive.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Ouvrir le robinet de vidange sur le groupe hydraulique et régler la pression à 1-1,2 bar.',
+    'al04': '<b>Code</b> <span style="color: red;">AL04</span> : Anomalie sonde sanitaire (ou sonde de retour pour versions « T »).<br><b><span style="color:#e74c3c;">Cause</span></b> : Sonde défectueuse ou mal connectée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier les raccordements et le fonctionnement de la sonde sanitaire.',
+    'al05': '<b>Code</b> <span style="color: red;">AL05</span> : Anomalie de la sonde de refoulement.<br><b><span style="color:#e74c3c;">Cause</span></b> : Sonde défectueuse ou mal connectée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier les raccordements et le fonctionnement de la sonde de refoulement.',
+    'al06': '<b>Code</b> <span style="color: red;">AL06</span> : Absence de détection de la flamme.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème d\'électrode ou d\'alimentation en gaz.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier l\'intégrité de l\'électrode (non reliée à la masse), la disponibilité et la pression du gaz, ainsi que la vanne de gaz et la carte.',
+    'al07': '<b>Code</b> <span style="color: red;">AL07</span> : Intervention de la sonde ou du thermostat de sécurité.<br><b><span style="color:#e74c3c;">Cause</span></b> : Surchauffe ou défaut de circulation.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier les raccordements de la sonde ou du thermostat, aérer l\'installation, vérifier le purgeur, remplacer la sonde ou le thermostat, et s\'assurer que le rotor de la pompe n\'est pas bloqué.',
+    'al08': '<b>Code</b> <span style="color: red;">AL08</span> : Anomalie du circuit de détection de la flamme.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème d\'électrode ou de composants.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier l\'intégrité de l\'électrode (non reliée à la masse), ainsi que la vanne de gaz et la carte.',
+    'al09': '<b>Code</b> <span style="color: red;">AL09</span> : Absence de circulation de l\'eau dans l\'installation.<br><b><span style="color:#e74c3c;">Cause</span></b> : Pompe ou circuit bloqué.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier la rotation du rotor de la pompe, les branchements électriques, et remplacer la sonde si nécessaire.',
+    'al10': '<b>Code</b> <span style="color: red;">AL10</span> : Anomalie sonde auxiliaire.<br><b><span style="color:#e74c3c;">Cause</span></b> : Configuration ou connexion incorrecte.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier le paramètre « tS 0.2 configuration hydraulique » et le branchement électrique.',
+    'al11': '<b>Code</b> <span style="color: red;">AL11</span> : Modulateur de la vanne de gaz déconnecté.<br><b><span style="color:#e74c3c;">Cause</span></b> : Connexion défectueuse.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier le branchement électrique.',
+    'al12': '<b>Code</b> <span style="color: red;">AL12</span> : Anomalie de la sonde sanitaire en mode ballon d\'eau chaude.<br><b><span style="color:#e74c3c;">Cause</span></b> : Paramétrage incorrect.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Régler le paramètre tS 0.4 (configuration de la combustion) à la valeur 0.',
+    'al13': '<b>Code</b> <span style="color: red;">AL13</span> : Intervention de la sonde des fumées.<br><b><span style="color:#e74c3c;">Cause</span></b> : Sonde défectueuse.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier le fonctionnement de la sonde et la remplacer si nécessaire.',
+    'al14': '<b>Code</b> <span style="color: red;">AL14</span> : Anomalie de la sonde des fumées.<br><b><span style="color:#e74c3c;">Cause</span></b> : Sonde ou connexion défectueuse.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Remplacer la sonde des fumées, vérifier le raccordement électrique, ou contacter le SAV.',
+    'al15': '<b>Code</b> <span style="color: red;">AL15</span> : Câble de contrôle du ventilateur débranché.<br><b><span style="color:#e74c3c;">Cause</span></b> : Connexion interrompue.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier les câbles de raccordement entre le ventilateur et la carte.',
+    'al18': '<b>Code</b> <span style="color: red;">AL18</span> : Anomalie du niveau de condensation.<br><b><span style="color:#e74c3c;">Cause</span></b> : Obstruction.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier si le tuyau de condensation ou le siphon est bouché.',
+    'al28': '<b>Code</b> <span style="color: red;">AL28</span> : Nombre maximum de déblocages consécutifs atteint.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème persistant.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Attendre 1 heure et essayer de débloquer la carte, ou contacter le SAV.',
+    'al30': '<b>Code</b> <span style="color: red;">AL30</span> : Anomalie sonde de retour (ou sonde du ballon d\'eau chaude pour versions « T »).<br><b><span style="color:#e74c3c;">Cause</span></b> : Sonde défectueuse.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Remplacer la sonde de retour, vérifier les paramètres, ou contacter le SAV.',
+    'al37': '<b>Code</b> <span style="color: red;">AL37</span> : Tension de réseau trop basse.<br><b><span style="color:#e74c3c;">Cause</span></b> : Alimentation insuffisante.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier la tension électrique.',
+    'al40': '<b>Code</b> <span style="color: red;">AL40</span> : Détection de la fréquence de réseau erronée.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème d\'alimentation.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier la tension électrique.',
+    'al41': '<b>Code</b> <span style="color: red;">AL41</span> : Perte de la flamme plus de 6 fois consécutives.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème d\'allumage.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier l\'électrode d\'allumage/détection, la disponibilité du gaz (robinet ouvert), et la pression du gaz dans le réseau.',
+    'al42': '<b>Code</b> <span style="color: red;">AL42</span> : Anomalie des boutons.<br><b><span style="color:#e74c3c;">Cause</span></b> : Boutons défectueux.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier le fonctionnement des boutons.',
+    'al43': '<b>Code</b> <span style="color: red;">AL43</span> : Anomalie de communication Open Therm.<br><b><span style="color:#e74c3c;">Cause</span></b> : Connexion défectueuse.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier la connexion électrique OT.',
+    'al44': '<b>Code</b> <span style="color: red;">AL44</span> : Temporisation écoulée de la vanne à gaz sans flamme.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de combustion.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier la vanne à gaz et l\'alimentation en gaz.',
+    'al56': '<b>Code</b> <span style="color: red;">AL56</span> : Blocage pour ∆T refoulement/retour hors limite maximum (open vent).<br><b><span style="color:#e74c3c;">Cause</span></b> : Différence de température excessive.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contacter le SAV.',
+    'al57': '<b>Code</b> <span style="color: red;">AL57</span> : Blocage pour contrôle FT « Flow Temp » (open vent).<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de température.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contacter le SAV.',
+    'al62': '<b>Code</b> <span style="color: red;">AL62</span> : Nécessité d\'effectuer l\'auto-calibrage.<br><b><span style="color:#e74c3c;">Cause</span></b> : Calibration requise.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Effectuer la procédure d\'auto-calibrage.',
+    'al72': '<b>Code</b> <span style="color: red;">AL72</span> : Positionnement erroné de la sonde de refoulement.<br><b><span style="color:#e74c3c;">Cause</span></b> : Sonde mal placée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier le fonctionnement et le positionnement de la sonde de refoulement.',
+    'al74': '<b>Code</b> <span style="color: red;">AL74</span> : Panne de la deuxième sonde de refoulement.<br><b><span style="color:#e74c3c;">Cause</span></b> : Sonde défectueuse.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier le fonctionnement et le positionnement de la deuxième sonde de refoulement.',
+    'al77': '<b>Code</b> <span style="color: red;">AL77</span> : Erreur limites absolues max/min courant EV2 SGV.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de vanne ou de carte.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier la vanne à gaz et la carte.',
+    'al78': '<b>Code</b> <span style="color: red;">AL78</span> : Erreur limite supérieure courant EV2 SGV.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de vanne ou de carte.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier la vanne à gaz et la carte.',
+    'al79': '<b>Code</b> <span style="color: red;">AL79</span> : Erreur limite inférieure courant EV2 SGV.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de vanne ou de carte.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier la vanne à gaz et la carte.',
+    'al80': '<b>Code</b> <span style="color: red;">AL80</span> : Panne le long de la ligne logique de commande vanne ou câble endommagé.<br><b><span style="color:#e74c3c;">Cause</span></b> : Connexion ou vanne défectueuse.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier la vanne à gaz et la carte.',
+    'al81': '<b>Code</b> <span style="color: red;">AL81</span> : Blocage dû au problème de combustion au démarrage.<br><b><span style="color:#e74c3c;">Cause</span></b> : Obstruction ou réglage incorrect.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier les obstructions de la cheminée, le diaphragme de l\'air (si « BF »), le réglage du gaz, et évacuer l\'air dans le circuit du gaz.',
+    'al82': '<b>Code</b> <span style="color: red;">AL82</span> : Blocage pour contrôle de la combustion échoué à plusieurs reprises.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de combustion.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier l\'électrode, les évacuations, le diaphragme de l\'air (si « BF »), et le réglage du gaz.',
+    'al83': '<b>Code</b> <span style="color: red;">AL83</span> : Combustion non régulière (erreur temporaire).<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de combustion.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier les obstructions de la cheminée, le diaphragme de l\'air (si « BF »), et le réglage du gaz.',
+    'al84': '<b>Code</b> <span style="color: red;">AL84</span> : Réduction débit pour basse pression sur gaz de réseau.<br><b><span style="color:#e74c3c;">Cause</span></b> : Pression de gaz insuffisante.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier le débit du gaz.',
+    'al88': '<b>Code</b> <span style="color: red;">AL88</span> : Erreur interne (protection d\'un composant de la carte).<br><b><span style="color:#e74c3c;">Cause</span></b> : Carte défectueuse.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier le fonctionnement de la carte et la remplacer si nécessaire.',
+    'al89': '<b>Code</b> <span style="color: red;">AL89</span> : Erreur signal feedback combustion fluctuante.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de combustion.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier l\'électrode, les évacuations, le diaphragme de l\'air (si « BF »), et le réglage du gaz.',
+    'al90': '<b>Code</b> <span style="color: red;">AL90</span> : Erreur incapacité d\'atteindre le set de combustion.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de combustion.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier l\'électrode, les évacuations, le diaphragme de l\'air (si « BF »), et le réglage du gaz.',
+    'al92': '<b>Code</b> <span style="color: red;">AL92</span> : Erreur système a atteint la correction d\'air maximale (au débit minimum).<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de combustion.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier l\'électrode, les évacuations, le diaphragme de l\'air (si « BF »), et le réglage du gaz.',
+    'al93': '<b>Code</b> <span style="color: red;">AL93</span> : Erreur incapacité d\'atteindre le set de combustion.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de combustion.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier l\'électrode, les évacuations, le diaphragme de l\'air (si « BF »), et le réglage du gaz.',
+    'al95': '<b>Code</b> <span style="color: red;">AL95</span> : Erreur micro-interruptions sur signal de flamme.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de détection.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier l\'électrode, la carte, l\'alimentation électrique, et le réglage du gaz.',
+    'al96': '<b>Code</b> <span style="color: red;">AL96</span> : Blocage pour obstruction de l\'évacuation des fumées.<br><b><span style="color:#e74c3c;">Cause</span></b> : Cheminée obstruée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier les obstructions de la cheminée et l\'évacuation des fumées, s\'assurer que l\'électrode ne touche pas le brûleur.',
+    'al98': '<b>Code</b> <span style="color: red;">AL98</span> : Erreur logiciel, démarrage carte.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème de carte.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contacter le SAV.',
+    'al99': '<b>Code</b> <span style="color: red;">AL99</span> : Erreur générique carte.<br><b><span style="color:#e74c3c;">Cause</span></b> : Défaillance générale.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contacter le SAV.',
+    'erreur--': '<b>Code</b> <span style="color: red;">Erreur --</span> : 1- Intervention fréquente de la soupape de sécurité / 2- Faible production d\'eau sanitaire.<br><b><span style="color:#e74c3c;">Cause</span></b> : 1- Pression ou vase d\'expansion défectueux / 2- Problème de débit ou d\'échangeur.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : 1- Vérifier la pression dans le circuit et le vase d\'expansion / 2- Vérifier la vanne de déviation, la propreté de l\'échangeur à plaques, et le robinet du circuit sanitaire.',
+    'se': '<b>Code</b> <span style="color: red;">SE</span> : Demande d\'entretien.<br><b><span style="color:#e74c3c;">Cause</span></b> : Entretien requis.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Lorsque le symbole « SE » s\'affiche, contacter un technicien pour l\'entretien de la chaudière.'
+},
+        'junkers': {
+            'ea': '<b>Code</b> <span style="color: red;">EA</span> : Pas de flamme.<br><b><span style="color:#e74c3c;">Cause</span></b> : Gaz absent ou allumeur HS.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez le gaz, remplacez l’allumeur.',
+            'c6': '<b>Code</b> <span style="color: red;">C6</span> : Défaut ventilateur.<br><b><span style="color:#e74c3c;">Cause</span></b> : Ventilateur bloqué.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Remplacez le ventilateur.',
+            'e9': '<b>Code</b> <span style="color: red;">E9</span> : Surchauffe.<br><b><span style="color:#e74c3c;">Cause</span></b> : Circulation bloquée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez la pompe, purgez.',
+            'f0': '<b>Code</b> <span style="color: red;">F0</span> : Défaut carte.<br><b><span style="color:#e74c3c;">Cause</span></b> : Carte HS.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contactez un technicien.'
+        },
+        'copa': {
+            'e3': '<b>Code</b> <span style="color: red;">E3</span> : Surchauffe.<br><b><span style="color:#e74c3c;">Cause</span></b> : Circulation bloquée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez la pompe, purgez.',
+            'e2': '<b>Code</b> <span style="color: red;">E2</span> : Pression basse.<br><b><span style="color:#e74c3c;">Cause</span></b> : Manque d’eau.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Remplissez à 1-2 bars.',
+            'e1': '<b>Code</b> <span style="color: red;">E1</span> : Défaut d’allumage.<br><b><span style="color:#e74c3c;">Cause</span></b> : Pas de gaz.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifiez le gaz, nettoyez l’électrode.'
+        },
+        'ferroli': {
+            'a01': '<b>Code</b> <span style="color: red;">A01</span> : Le brûleur ne s\'allume pas.<br><b><span style="color:#e74c3c;">Cause</span></b> : Manque d\'alimentation de gaz, anomalie électrode d\'allumage/détection.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôler l\'arrivée du gaz, vérifier les électrodes.',
+            'a02': '<b>Code</b> <span style="color: red;">A02</span> : Présence de la flamme brûleur éteint.<br><b><span style="color:#e74c3c;">Cause</span></b> : Non précisée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier le système de détection de flamme.',
+            'a03': '<b>Code</b> <span style="color: red;">A03</span> : Protection contre la surchauffe.<br><b><span style="color:#e74c3c;">Cause</span></b> : Non précisée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôler le capteur de température chauffage.',
+            'a04': '<b>Code</b> <span style="color: red;">A04</span> : Intervention sécurité conduit d\'évacuation des fumées.<br><b><span style="color:#e74c3c;">Cause</span></b> : Anomalie F07 répétée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôler l\'échangeur.',
+            'a05': '<b>Code</b> <span style="color: red;">A05</span> : Intervention protection ventilateur.<br><b><span style="color:#e74c3c;">Cause</span></b> : Anomalie F15 prolongée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier le ventilateur.',
+            'a06': '<b>Code</b> <span style="color: red;">A06</span> : Absence de flamme après allumage.<br><b><span style="color:#e74c3c;">Cause</span></b> : Non précisée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôler l’électrode d’ionisation, vérifier le brûleur.',
+            'f07': '<b>Code</b> <span style="color: red;">F07</span> : Température fumées élevée.<br><b><span style="color:#e74c3c;">Cause</span></b> : Sonde détecte une surchauffe.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôler l’échangeur.',
+            'f10': '<b>Code</b> <span style="color: red;">F10</span> : Anomalie capteur départ 1.<br><b><span style="color:#e74c3c;">Cause</span></b> : Non précisée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôler le câblage ou remplacer le capteur.',
+            'f11': '<b>Code</b> <span style="color: red;">F11</span> : Anomalie capteur de retour.<br><b><span style="color:#e74c3c;">Cause</span></b> : Non précisée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôler le câblage ou remplacer le capteur retour.',
+            'f12': '<b>Code</b> <span style="color: red;">F12</span> : Anomalie capteur d’eau chaude sanitaire.<br><b><span style="color:#e74c3c;">Cause</span></b> : Non précisée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôler le câblage ou remplacer le capteur sanitaire.',
+            'f13': '<b>Code</b> <span style="color: red;">F13</span> : Anomalie sonde fumée.<br><b><span style="color:#e74c3c;">Cause</span></b> : Non précisée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôler le câblage ou remplacer la sonde de fumée.',
+            'f14': '<b>Code</b> <span style="color: red;">F14</span> : Anomalie capteur départ 2.<br><b><span style="color:#e74c3c;">Cause</span></b> : Non précisée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôler le câblage ou remplacer le capteur départ 2.',
+            'f15': '<b>Code</b> <span style="color: red;">F15</span> : Anomalie ventilateur.<br><b><span style="color:#e74c3c;">Cause</span></b> : Absence de tension ou ventilateur endommagé.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier le câblage, remplacer le ventilateur.',
+            'f34': '<b>Code</b> <span style="color: red;">F34</span> : Tension d’alimentation inférieure à 170V.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème réseau électrique.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier l’installation électrique.',
+            'f35': '<b>Code</b> <span style="color: red;">F35</span> : Fréquence réseau anormale.<br><b><span style="color:#e74c3c;">Cause</span></b> : Problème réseau électrique.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Vérifier l’installation électrique.',
+            'f37': '<b>Code</b> <span style="color: red;">F37</span> : Pression eau incorrecte.<br><b><span style="color:#e74c3c;">Cause</span></b> : Pression trop basse ou pressostat HS.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Remplir l’installation, vérifier le capteur.',
+            'f39': '<b>Code</b> <span style="color: red;">F39</span> : Anomalie sonde extérieure.<br><b><span style="color:#e74c3c;">Cause</span></b> : Sonde endommagée ou débranchée.<br><span style="font-weight: 500; color: #075e54;"><b>Solution :</b></span> : Contrôler le câblage ou remplacer le capteur.'
+        }
+    
+
+    
+        // ... (autres marques et leurs codes d'erreur restent inchangés)
+    };
+
+    const brandResponses = responses[selectedBrand] || {};
+    return brandResponses[message] || `Aucun <b>Code</b> <span style="color: red;">${message}</span> trouvé pour la marque <b>${document.getElementById('brandSelect').options[document.getElementById('brandSelect').selectedIndex].text}</b>. Vérifiez le <b>Code</b> erreur ou sélectionnez une autre marque .`;
+}
+
+function sendMessage() {
+    const messageText = messageInput.value.trim();
+    if (messageText !== '') {
+        displayMessage(messageText, true);
+        setTimeout(() => {
+            const botResponse = getBotResponse(messageText);
+            displayMessage(botResponse, false);
+        }, 1000);
+        messageInput.value = '';
+    }
+}
+
+function restartConversation() {
+    selectedBrand = '';
+    messageArea.innerHTML = `
+        <div class="message received">
+            <div class="message-content">Sélectionnez la marque de votre chaudière puis tapez le <b>Code</b> erreur :<br>
+            <select id="brandSelect" onchange="selectBrand()">
+                <option value="">Choisissez une marque</option>
+                <option value="saunier_duval">Saunier Duval</option>
+                <option value="riello">Riello</option>
+                <option value="beretta">Beretta</option>
+                <option value="immergas">Immergas</option>
+                <option value="motan">Motan</option>
+                <option value="chappee">Chappee</option>
+                <option value="facofri">Facofri</option>
+                <option value="energical">Energical</option>
+                <option value="sime">Sime</option>
+                <option value="junkers">Junkers</option>
+                <option value="copa">Copa</option>
+                <option value="ferroli">Ferroli</option><option value="viesmann">Viesmann</option> 
+            </select>
+            </div>
+        </div>
+    `;
+    messageInput.value = '';
+}
+
+function toggleChat() {
+    if (chatContainer.style.display === 'block') {
+        chatContainer.style.display = 'none';
+    } else {
+        chatContainer.style.display = 'block';
+    }
+}
+
+messageInput.addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+        sendMessage();
+    }
+});
+</script> 
+</body></html>
